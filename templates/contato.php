@@ -1,0 +1,40 @@
+<!-- Template name: Contato -->
+<?php get_header(); ?>
+    <div class="container-fluid pagina-contato">
+        <div id="header-contato" class="row mx-0 pt-5 text-center">
+            <div class="col-12">
+               <h1>Contato</h1>
+               <h2>Ninguém gosta da sensação de estar perdido. Estamos aqui para te ajudar.</h2>
+            </div>
+        </div>
+        <div class="row mx-0">
+            <div class="col-12 form-map">
+                <div class="box-contato formulario">
+                    <?php echo do_shortcode('[ninja_form id=1]'); ?>
+                </div>
+            </div>
+            <!-- <section>
+                <svg id="curva" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3842.814 2586.033">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #58cca4;
+                            }
+                        </style>
+                    </defs>
+                    <path id="Fundo" class="cls-1" d="M-.123,1874s559.729-971.364,1893.852-923.56S3842.692,0,3842.692,0V2586.033H.223Z" transform="translate(0.123)"/>
+                </svg>
+            </section> -->
+        </div>
+        <div class="row mx-0 where-are-we">
+            <div class="col-12">
+                <div class="mt-5 mt-lg-0">
+                    <h3 class="text-center">Onde estamos?</h3>
+                    <div class="map-wrap box-contato d-flex flex-column align-items-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.792601667596!2d-51.21045298488485!3d-30.04280738188287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519784f9e07c47d%3A0x6bd1318f65bdeee4!2sR.%20Ramiro%20Barcelos%2C%202777%20-%20Santana%2C%20Porto%20Alegre%20-%20RS%2C%2090035-007!5e0!3m2!1spt-BR!2sbr!4v1641922564030!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<?php get_footer(); ?>

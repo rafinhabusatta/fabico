@@ -1,0 +1,21 @@
+/* MENU DE NAVEGAÇÃO */
+.bg-fabico {
+  background-color: #fdb515;
+  opacity: 0.9;
+  box-shadow: 0px 3px 10px #000000a6;
+}
+
+.bg-submenu {
+  background-color: #fdb515;
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 75px;
+}
+
+@media (min-width: 992px) {
+  nav li.nav-item {
+    font-size: 18px;
+  }
+}

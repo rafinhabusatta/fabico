@@ -1,0 +1,25 @@
+/* LINKS GERAIS */
+.navbar-light .navbar-nav .nav-link,
+a:link,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+/* 
+.navbar-light .navbar-nav .dropdown-item,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link,
+.btn-leia,
+#btn-sobre,
+#btn-historic*/
+@media (min-width: 992px) {
+  /* Links Hover */
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .dropdown-item:hover,
+  .btn-leia:hover {
+    color: #424242;
+    background: none;
+  }
+}
