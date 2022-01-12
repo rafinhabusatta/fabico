@@ -91,7 +91,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <h2>Destaques Acadêmicos</h2>
+                        <h2>Destaques Acadêmicos teste</h2>
                     </div>
                     <div class="carousel-item">
                         Mais Notícias
