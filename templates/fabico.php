@@ -3,18 +3,18 @@
 <div class="container-fluid">
   <div class="row bg-header">
     <div class="col-12 bloco-container">
-        <div class="row mx-md-3">
-            <div class="col-12 px-md-0">
-                <h1 class="text-center mb-4">A FABICO</h1>
-            </div>
+      <div class="row mx-md-3">
+        <div class="col-12 px-md-0">
+            <h1 class="text-center mb-4">A FABICO</h1>
         </div>
-        <div class="row mx-md-3">
-            <div class="col-12 px-md-0 m-xl-auto">
-              <p class="text-justify">
-                A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo Reitor Eduardo Zaccaro Faraco, em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.
-              </p>
-            </div>
+      </div>
+      <div class="row mx-md-3">
+        <div class="col-12 px-md-0 m-xl-auto">
+          <p class="text-justify">
+            A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo Reitor Eduardo Zaccaro Faraco, em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.
+          </p>
         </div>
+      </div>
     </div>
   </div>
   <div class="row mx-0 mt-3">
