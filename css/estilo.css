@@ -66,6 +66,36 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .bloco-container {
+    padding: 48px;
+  }
+}
+
+/* LARGE DEVICES */
+@media (min-width: 992px) {
+  .bloco-container {
+    padding: 48px 111px;
+  }
+}
+
+/* EXTRA LARGE DEVICES */
+@media (min-width: 1200px) {
+  .bloco-container {
+    margin: 48px 162px;
+    padding: 0;
+    max-width: 1010px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .bloco-container {
+    margin: 48px auto;
+    padding: 0;
+    max-width: 1010px;
+  }
+}
+
 /* @media (min-width: 992px) {
   .cardHome {
     font-size: 20px;
