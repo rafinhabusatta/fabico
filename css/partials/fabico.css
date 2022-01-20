@@ -1,0 +1,17 @@
+.container-ex-diretor h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-equipe {
+  margin-top: 16px;
+}
+
+.card-equipe h4 {
+  font-size: 18px;
+}
+
+.card-equipe h5 {
+  font-size: 16px;
+  margin-left: 20px;
+}

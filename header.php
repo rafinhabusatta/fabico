@@ -22,7 +22,9 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/header.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/links.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/quemsomos.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/fabico.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/footer.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/graduacao.css">
 
 		<!-- Favicons -->
 		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/fabico.png" >
