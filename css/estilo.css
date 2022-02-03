@@ -79,6 +79,13 @@ ul {
   margin: 10px;
 }
 
+/* CONTAINERS */
+.bloco-container-col-9 {
+  max-width: 1010px;
+  padding-top: 48px;
+  padding-right: 48px;
+}
+
 @media (min-width: 992px) {
   .card-container {
     flex-direction: row;
