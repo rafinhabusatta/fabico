@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <div class="container-fluid">
   <div class="row bg-header">
-    <div class="col-12 bloco-container">
+    <div class="col-12 top-header">
       <div class="row mx-md-3">
         <div class="col-12 px-md-0">
           <h1 class="text-center mb-4">Núcleos e Laboratórios</h1>
@@ -43,10 +43,10 @@
       </nav>
     </div>
     <div class="col-12 col-lg-9 bloco-container-col-9">
-      <div id="cedap" class="row">
+      <div id="cedap" class="row pr-5 mr-4">
         <div class="col-12">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
               <h2 class="title">Cedap - Centro de Documentação e Acervo Digital da Pesquisa</h2>
             </div>
           </div>
@@ -83,21 +83,32 @@
                   <h3>Equipe</h3>
                 </div>
               </div>
-              <div class="row mt-3">
-                <div class="col-12">
-                  <h4>Caterina Marta Groposo Pavão</h4>
-                  <p>Diretora</p>
-                  <h4>Rafael Port da Rocha</h4>
-                  <h4>Sandra de Fátima Batista de Deus</h4>
-                  <p>Diretor substituto</p>
-                </div> 
-              </div> 
+              <div class="row row equipe justify-content-around bloco-container">
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Caterina Marta Groposo Pavão</h3>
+                    <p>Diretora</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Rafael Port da Rocha</h3>
+                    <p>Diretor substituto</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Sandra de Fátima Batista de Deus</h3>
+                    <p>Diretor substituto</p>
+                  </div>
+                </div>
+              </div>
               <div class="row">
                 <div class="col-12">
-                  <h3>Contato</h3>
+                  <h3 class="mb-3">Contato</h3>
                   <ul>
                     <li>E-mail: <a href="mailto:cedap@ufrgs.br">cedap@ufrgs.br</a></li>
-                    <li>Sala: 106 - Anexo 1</li>
+                    <li><span>Sala: 106 - Anexo 1</span></li>
                     <li>Telefone: <a href="tel:+55513308.5942">(51) 3308.5942</a></li>
                   </ul>
                 </div>
@@ -106,10 +117,10 @@
           </div>
         </div>
       </div>
-      <div id="caixola" class="row mt-5">
+      <div id="caixola" class="row pr-5 mr-4 mt-5">
         <div class="col-12">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
               <h2 class="title">Caixola - Clube de Criação da FABICO</h2>
             </div>
           </div>
@@ -140,7 +151,7 @@
                     <p>Coordenação Adjunta</p>
                   </div>
                 </div>
-              </div> 
+              </div>
               <div class="row">
                 <div class="col-12">
                   <h3>Contato</h3>
@@ -155,10 +166,10 @@
           </div>
         </div>
       </div>
-      <div id="cmc" class="row mt-5">
+      <div id="cmc" class="row pr-5 mr-4 mt-5">
         <div class="col-12">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
               <h2 class="title">CMC  - Laboratório de Cultura Material e Conservação</h2>
             </div>
           </div>
@@ -171,7 +182,7 @@
             </div>
             <div class="col-12 col-md-6">
               <figure>
-                <img src="<?php bloginfo("template_directory"); ?>/img/cmc.jfif" alt="">
+                <img src="<?php bloginfo("template_directory"); ?>/img/cmc.jfif" alt="Foto do Laboratório de Cultura Material e Conservação, exibindo sua estrutura com mesas e armário.">
                 <figcaption>Foto: Leonardo Munhoz de Moraes</figcaption>
               </figure>
             </div>
@@ -196,27 +207,27 @@
                     <p>Coordenadora Substituta</p>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <h4>Ana Maria Dalla Zen</h4>
-                  <h4>Ana Carolina Gelmini de Faria</h4>
-                  <h4>Marlise Maria Giovanaz</h4>
-                  <h4>Zita Rosane Possamai</h4>
-                  <h4>Ana Celina Figueira da Silva</h4>
-                  <h4>Eráclito Pereira</h4>
-                  <h4>Vanessa Barrozo Teixeira</h4>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                  <h3>Ana Maria Dalla Zen</h3>
+                  <h3>Ana Carolina Gelmini de Faria</h3>
+                  <h3>Marlise Maria Giovanaz</h3>
+                  <h3>Zita Rosane Possamai</h3>
+                  <h3>Ana Celina Figueira da Silva</h3>
+                  <h3>Eráclito Pereira</h3>
+                  <h3>Vanessa Barrozo Teixeira</h3>
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <h3>Contato</h3>
+                  <h3 class="mb-3">Contato</h3>
                   <ul>
                     <li>
                       E-mail: <a href="mailto:elias.machado@ufrgs.br">elias.machado@ufrgs.br</a> ou 
                       <a href="mailto:lee7dias@gmail.com">lee7dias@gmail.com</a>
                     </li>
-                    <li>Sala: 103 - Anexo 1</li>
+                    <li><span>Sala: 103 - Anexo 1</span></li>
                     <li>Telefone: <a href="tel:+55513308.5167">(51) 3308.5148</a></li>
                     <li>Reservas pelo e-mail <a href="mailto:reservasmuseologia@ufrgs.br">reservasmuseologia@ufrgs.br</a> ou 
                       <a href="mailto:elias.machado@ufrgs.br">elias.machado@ufrgs.br</a>
@@ -226,7 +237,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <h3>Disciplinas desenvolvidas no CMC</h3>
+                  <h3 class="mb-3">Disciplinas desenvolvidas no CMC</h3>
                   <ul>
                     <li>BIB03097 - Arqueologia e Cultural Material;</li>
                     <li>BIB03211 - Conservação e Preservação de Bens Culturais;</li>
@@ -239,7 +250,7 @@
               </div>
               <div class="row mt-3">
                 <div class="col-12">
-                  <h3>Atividades de pesquisa e extensão desenvolvidas no CMC</h3>
+                  <h3 class="mb-3">Atividades de pesquisa e extensão desenvolvidas no CMC</h3>
                   <ul>
                     <li>Contribuição à conservação do patrimônio cultural porto-alegrense: projeto interdisciplinar UFRGS;</li>
                     <li>Conservação Preventiva e Gerenciamento de Riscos em Coleções;</li>
@@ -256,10 +267,10 @@
           </div>
         </div>
       </div>
-      <div id="criamus" class="row mt-5">
+      <div id="criamus" class="row pr-5 mr-4 mt-5">
         <div class="col-12">
           <div class="row">
-            <div class="col-12">
+            <div class="col-12 mb-3">
               <h2 class="title">Criamus - Laboratório de Criação Museográfica</h2>
             </div>
           </div>
@@ -272,7 +283,7 @@
             </div>
             <div class="col-12 col-md-6">
               <figure>
-                <img src="<?php bloginfo("template_directory"); ?>/img/criamus.jfif" alt="">
+                <img src="<?php bloginfo("template_directory"); ?>/img/criamus.jfif" alt="Foto do Laboratório de Criação Museográfica, exibindo sua estrutura com diversas mesas.">
                 <figcaption>Foto: Leonardo Munhoz de Moraes</figcaption>
               </figure>
             </div>
@@ -297,18 +308,18 @@
                     <p>Coordenadora Substituta</p>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <h4>Ana Maria Dalla Zen</h4>
-                  <h4>Jeniffer Alves Cuty</h4>
-                  <h4>Marlise Maria Giovanaz</h4>
-                  <h4>Zita Rosane Possamai</h4>
-                  <h4>Ana Celina Figueira da Silva</h4>
-                  <h4>Eráclito Pereira</h4>
-                  <h4>Ana Carolina Gelmini de Faria</h4>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Ana Maria Dalla Zen</h3>
+                    <h3>Jeniffer Alves Cuty</h3>
+                    <h3>Marlise Maria Giovanaz</h3>
+                    <h3>Zita Rosane Possamai</h3>
+                    <h3>Ana Celina Figueira da Silva</h3>
+                    <h3>Eráclito Pereira</h3>
+                    <h3>Ana Carolina Gelmini de Faria</h3>
+                  </div>
                 </div>
-              </div> 
+              </div>
               <div class="row mt-3">
                 <div class="col-12">
                   <h3>Contato</h3>
@@ -393,6 +404,204 @@
                   </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="radio" class="row pr-5 mr-4 mt-5">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <h2 class="title">Estúdio de Rádio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 ">
+              <p class="text-justify">
+                O Estúdio de Rádio é um espaço laboratorial voltado ao exercício de práticas profissionais e à experimentação sonora. Conta com uma equipe de técnicos e um monitor para auxiliar nos trabalhos realizados sob a orientação de professores.
+              </p>
+              <p>As produções em áudio realizadas pelos estudantes da Faculdade de Biblioteconomia e Comunicação podem ser ouvidas no site do núcleo: <a href="www.ufrgs.br/estudioderadio" target="_blank">www.ufrgs.br/estudioderadio</a></p>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Equipe</h3>
+                </div>
+              </div>
+              <div class="row equipe justify-content-around bloco-container">
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Cassilda Golin Costa</h3>
+                    <p>Coordenadora</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                    <h3>Neudimar da Rocha</h3>
+                    <h3>Eloi Lopes</h3>
+                    <p>Técnicos de som</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-12">
+                  <h3>Contato</h3>
+                  <ul>
+                    <li>E-mail: <a href="mailto:estudioderadio@ufrgs.br">estudioderadio@ufrgs.br</a></li>
+                    <li>Sala: 304</li>
+                    <li>Telefone: <a href="tel:+55513308.5148">(51) 3308.5166</a></li>
+                    <li>Site: <a href="www.ufrgs.br/estudioderadio" target="_blank">www.ufrgs.br/estudioderadio</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="labs" class="row pr-5 mr-4 mt-5">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <h2 class="title">Laboratórios de Informática</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 ">
+              <p class="text-justify">
+                A Fabico disponibiliza o Laboratório de Informática 01 (sala 209) e o Laboratório de Informática 02 (sala 211), com 20 computadores cada, para uso individual dos alunos, e um computador para uso do professor, sendo este com conexão simultânea com o projetor multimídia e um monitor de acompanhamento. No Laboratório de Informática 02 estão disponíveis 3 computadores com acessibilidade.
+              </p>
+              <p class="text-justify">
+                A administração dos Laboratórios de Informática é de responsabilidade do Setor de Informática – INFABICO.
+              </p>
+              <p class="text-justify">
+                O horário de funcionamento dos laboratórios é das 8h00min às 19h45, de segunda a sexta-feira. Nos recessos acadêmicos ocorre alteração dos horários para que os bolsistas possam aproveitar o merecido descanso.
+              </p>
+              <p class="text-justify">
+                Os Laboratórios de Informática têm por finalidade a realização de trabalhos acadêmicos, pesquisas e/ou quaisquer outras atividades exercidas por alunos e professores com vínculo ativo com a Universidade Federal do Rio Grande do Sul – UFRGS ou convênios firmados em acordo com a Gerência Administrativa da Unidade.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h3>
+                A configuração dos computadores do Laboratório de Informática 01 consiste em:
+              </h3>
+              <ul>
+                <li>Computadores de mesa marca Lenovo, modelo MT-M 6078-AJ2</li>
+                <li>Processador Intel Core2Duo</li>
+                <li>4 GB de memória</li>
+                <li>2 portas USB frontais</li>
+                <li>6 portas USB traseiras</li>
+                <li>Leitor e gravador de CD/DVD</li>
+                <li>Conector frontal para fones de ouvido e microfone</li>
+                <li>Tela LCD de 17”</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h3>
+                A configuração dos computadores do Laboratório de Informática 02 consiste em:
+              </h3>
+              <ul>
+                <li>Computadores de mesa marca Dell, modelo Optiplex 9010</li>
+                <li>Processador Intel i5</li>
+                <li>8 GB de memória</li>
+                <li>4 portas USB frontais (duas USB2.0 e duas USB3.0)</li>
+                <li>6 portas USB traseiras (quatro USB2.0 e duas USB3.0)</li>
+                <li>Leitor e gravador de CD/DVD</li>
+                <li>Conector frontal para fones de ouvido e microfone</li>
+                <li>Tela LCD de 20”</li>
+                <li>Tela LCD de 24" (PCs com Acessibilidade)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-justify">
+                    Os softwares instalados nos computadores foram selecionados com base na observação de uso nas salas de aula, laboratórios e solicitações dos professores. Todas as novas seleções devem ser encaminhadas ao Setor de Informática cm antecedência mínima de 15 dias para que possa ser realizada a análise do pedido e estudo de impacto nos demais softwares instalados.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <h3>Relação de softwares instalados no Laboratório de Informática 01</h3>
+                  <ul>
+                    <li>Microsoft Windows 7 Profissional</li>
+                    <li>Acrobat Reader DC (leitor de arquivos no formato PDF)</li>
+                    <li>Adobe Creative Suíte 4.0 (Adobe X, Photoshop, Illustrator e Indesign)</li>
+                    <li>Java Runtime Edition (complemento para execução do Java)</li>
+                    <li>Skype (chat e videochamada)</li>
+                    <li>SketchUp (software de modelagem 3D)</li>
+                    <li>LibreOffice (editor de textos, planilhas e apresentações)</li>
+                    <li>BibExcel (manipulação de dados)</li>
+                    <li>VLC Player (player multimídia)</li>
+                    <li>Audacity (editor de trilhas de áudio)</li>
+                    <li>DWG AutoCAD Viewer (visualizador de arquivos do AutoCAD)</li>
+                    <li>Gimp 2.8 (editor gráfico interfaceado para Photoshop)</li>
+                    <li>CorelDRAW X4 (editor de gráficos vetoriais)</li>
+                    <li>InkScape (editor de gráficos vetoriais)</li>
+                    <li>Ashampoo (gravador de arquivos em CD/DVD)</li>
+                    <li>Firefox (navegador internet)</li>
+                    <li>SPSS (software estatístico)</li>
+                    <li>CMap Tools (software estatístico)</li>
+                    <li>Mendeley Desktop (gerenciador de referências)</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <h3>Relação de softwares instalados no Laboratório de Informática 02</h3>
+                  <ul>
+                    <li>Microsoft Windows 8.1 Pro, vinculado ao Microsoft Active Directory UFRGS*</li>
+                    <li>Acrobat Reader DC (leitor de arquivos no formato PDF)</li>
+                    <li>AutoCAD 2016 (editor de arquitetura CAD)</li>
+                    <li>Gimp 2.8 (editor gráfico intefaceado para Photoshop)</li>
+                    <li>Java Runtime Edition (complemento para execução do Java)</li>
+                    <li>Skype (chat e videochamada)</li>
+                    <li>Microsoft Office 2013 Professional (Word, Excel e Powerpoint)</li>
+                    <li>Krita x64 (editor gráfico)</li>
+                    <li>MATLAB 2012 (software matemático)</li>
+                    <li>LibreOffice 6 (editor de textos, planilhas e apresentações)</li>
+                    <li>VLC Player (player multimídia)</li>
+                    <li>CMap Tools (software estatístico)</li>
+                    <li>7-Zip (compactador/descompactador)</li>
+                    <li>Ashampoo (gravador de arquivos em CD/DVD)</li>
+                    <li>Scribus (software de edição de textos)</li>
+                    <li>SPSS (software estatístico) + AMOS</li>
+                    <li>Oceanaudio (software de edição de áudio)</li>
+                    <li>DaVinci Resolve (editor de filmes)</li>
+                    <li>Firefox (navegador internet)</li>
+                    <li>Mendeley Desktop (gerenciador de referências)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h3>Segurança no acesso aos dados</h3>
+              <p class="text-justify">
+                Os computadores do <b>Laboratório de Informática I</b> possuem um sistema de proteção e prevenção contra danos que permite alterações durante o uso do computador, tais como instalação/desinstalação de programas, mas retorna o sistema operacional ao estado original ao ser reinicializado o equipamento. Todos os dados do usuário são apagados após reinicializar o computador, sendo assim é necessário que os usuários gravem seus trabalhos em mídias removíveis ou em nuvem.
+              </p>
+              <p class="text-justify">
+                Os computadores do <b>Laboratório de Informática II</b> estão vinculados ao Microsoft Active Directory da UFRGS e apenas alunos com vínculo ativo podem acessá-los. Cada aluno possui um perfil único no computador e assim seus dados e trabalhos são preservados naquele equipamento durante o semestre, exceto em casos onde ocorra manutenção emergencial no equipamento e seja necessária sua substituição. Ao contrário do Laboratório de Informática I os dados de acesso do usuário não serão apagados automaticamente.
+              </p>
+              <p class="text-justify">
+                Sugestões, reclamações e solicitações podem ser enviadas por e-mail para <a href="mailto:informaticafabico@ufrgs.br">informaticafabico@ufrgs.br</a>, respeitando o prazo para atendimento das mesmas conforme consta na página de serviços da FABICO, com cópia para a Direção (<a href="mailto:direcaofabico@ufrgs.br">direcaofabico@ufrgs.br</a> e <a href="mailto:vicedirfabico@ufrgs.br">vicedirfabico@ufrgs.br</a>) e Secretaria (<a href="mailto:fabico@ufrgs.br">fabico@ufrgs.br</a>).
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <h3>Reservas dos Laboratórios de Informática</h3>
+              <p class="text-justify">
+                A reserva dos Laboratórios de Informática para atividades acadêmicas deve ser efetuada através do site da Faculdade de Biblioteconomia e Comunicação, em formulário próprio disponível no link SERVIÇOS.
+              </p>
             </div>
           </div>
         </div>
