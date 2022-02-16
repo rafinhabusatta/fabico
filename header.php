@@ -63,7 +63,7 @@
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="" id="navbar-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mais</a>
 							<div class="dropdown-menu dropdown-menu-right bg-submenu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="<?php echo site_url(); ?>/nucleos-labs">Núcleos e Laboratórios</a>
+								<a class="dropdown-item" href="<?php echo site_url(); ?>/nucleos-e-laboratorios">Núcleos e Laboratórios</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/portal-egressos">Portal de Egressos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/atos-normativos">Atos Normativos</a>
 								<a class="dropdown-item" href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a>
