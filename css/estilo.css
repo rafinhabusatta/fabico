@@ -49,6 +49,17 @@ body {
   margin: 10px;
 }
 
+.carousel-item-style {
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.bg-slider {
+  background-color: #036b7f;
+}
+
 @media (min-width: 992px) {
   .card-container {
     flex-direction: row;
