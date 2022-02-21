@@ -31,7 +31,6 @@
           <li><a href="#setores">Setores e Ramais</a></li>
           <li><a href="#servidores">Servidores</a></li>
           <li><a href="#nau">NAU - Núcleo de Avaliação da Unidade</a></li>
-          <li><a href="#unidade">Unidade</a></li>
           <li><a href="#ngd">NGD - Núcleo de Gestão de Desempenho</a></li>
           <li><a href="#cosat">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></li>
           <li><a href="#biblioteca">Biblioteca Fabico</a></li>
@@ -488,6 +487,7 @@
       <div id="biblioteca">
         <div class="row bloco-container">
           <div class="col-12">
+            <h2>Biblioteca Fabico</h2>
             <p class="text-justify"><a href="https://www.ufrgs.br/bibfbc/">Clique aqui</a> para acessar o site da biblioteca da FABICO.</p>
           </div>
         </div>
