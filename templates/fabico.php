@@ -2,13 +2,13 @@
 <?php get_header(); ?>
 <div class="container-fluid">
   <div class="row bg-header">
-    <div class="col-12 bloco-container">
-      <div class="row mx-md-3">
+    <div class="col-12 top-header">
+      <div class="row mx-0 mx-md-4 px-2">
         <div class="col-12 px-md-0">
             <h1 class="text-center mb-4">A FABICO</h1>
         </div>
       </div>
-      <div class="row mx-md-3">
+      <div class="row mx-0 mx-md-4 px-2">
         <div class="col-12 px-md-0 m-xl-auto">
           <p class="text-justify">
             A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo Reitor Eduardo Zaccaro Faraco, em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.
@@ -18,33 +18,72 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-12">
-      <div class="fabico">
+    <div class="col-lg-3 d-none d-lg-block">
+      <nav class="side-menu">
+        <ul>
+          <li><a href="#historico">Histórico</a></li>
+          <li><a href="#conselho">Conselho da Unidade</a></li>
+          <li><a href="#administracao">Administração</a></li>
+          <li><a href="#gerencia">Gerência Administrativa</a></li>
+          <li><a href="#departamentos">Departamentos</a></li>
+          <li><a href="#in-fabico">InFabico</a></li>
+          <li><a href="#infraestrutura">Infraestrutura</a></li>
+          <li><a href="#setores">Setores e Ramais</a></li>
+          <li><a href="#servidores">Servidores</a></li>
+          <li><a href="#nau">NAU - Núcleo de Avaliação da Unidade</a></li>
+          <li><a href="#unidade">Unidade</a></li>
+          <li><a href="#ngd">NGD - Núcleo de Gestão de Desempenho</a></li>
+          <li><a href="#cosat">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></li>
+          <li><a href="#biblioteca">Biblioteca Fabico</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-12 col-lg-9">
+      <!-- <div class="fabico">
         <div class="row bloco-container">
           <div class="col-12">
             <p class="text-justify">Estão na sua origem o Curso de Graduação em Jornalismo, criado em 1952, vinculado à antiga Faculdade de Filosofia, e a Escola de Biblioteconomia e Documentação, formada a partir do curso técnico de Biblioteconomia, de 1947, agregado à Faculdade de Ciências Econômicas e aprovado como curso superior em 1958.</p>
+            
             <p class="text-justify">Com a criação da FABICO, o antigo Jornalismo é reformulado, tornando-se uma das habilitações do novo Curso de Comunicação Social. Em agosto de 1970 é feita a mudança para o prédio da Gráfica da Universidade, no Campus Saúde, onde passa a ocupar o terceiro andar, com salas de aula, sala de redação, laboratório fotográfico, Chefia do Departamento de Comunicação e Direção da nova Unidade.</p>
+            
             <p class="text-justify">Em 1972, o Curso de Biblioteconomia e Documentação e a Biblioteca da Faculdade instalam-se no prédio, ocupando o quarto andar. Nesta época são estabelecidas as habilitações unificadas do Curso de Comunicação Social – Jornalismo Gráfico e Audiovisual, Relações Públicas e Publicidade e Propaganda.</p>
+
             <p class="text-justify">Em 1985 o currículo do Curso de Comunicação é reformulado e são estabelecidas as habilitações em Jornalismo, em Publicidade e Propaganda e em Relações Públicas para a formação de Bacharéis em Comunicação.</p>
+
             <p class="text-justify">O Programa de Pós-Graduação em Comunicação e Informação - PPGCOM é aprovado e implantado em 1996, em nível de Mestrado, sendo ampliado em 2000 com a implantação do Doutorado.</p>
+
             <p class="text-justify">Na área de Ciências da Informação são criados o Curso de Graduação em Arquivologia, no ano de 1999, e o Curso de Museologia, em 2008.</p>
+
             <p class="text-justify">Desde 2006, com a transferência da Gráfica da Universidade para Rua Ramiro Barcelos, 2500, a FABICO passou a ocupar todo o prédio e parte do Anexo 1 do Campus Saúde. Abriga 1.532 alunos, 71 professores, 40 técnico-administrativos e equipe terceirizada.</p>
           </div>
         </div>
-      </div>
-      <div class="historico">
+      </div> -->
+      <div id="historico">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title">Histórico</h2>
-            <p class="text-justify">A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo reitor Eduardo Zaccaro Faraco em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.</p>
-            <p class="text-justify">Estão na sua origem o curso de graduação em Jornalismo criado em 1952, vinculado à antiga Faculdade de Filosofia, e a Escola de Biblioteconomia e Documentação, formada a partir do curso técnico de Biblioteconomia, de 1947, agregado à Faculdade de Ciências Econômicas e aprovado como curso superior em 1958.</p>
-            <p class="text-justify">Com a criação da FABICO, o antigo Jornalismo é reformulado, tornando-se uma das habilitações do novo curso de Comunicação Social. Em agosto de 1970 é feita a mudança para o prédio da Gráfica da Universidade, no Campus Saúde, onde passa a ocupar o terceiro andar, com salas de aula, sala de redação, laboratório fotográfico, chefia do Departamento de Comunicação e Direção da nova Unidade.</p>
-            <p class="text-justify">Em 1972, o curso de Biblioteconomia e Documentação e a Biblioteca da Faculdade instalam-se no prédio, ocupando o quarto andar. Nesta época são estabelecidas as habilitações unificadas do curso de Comunicação Social – Jornalismo Gráfico e Audiovisual, Relações Públicas e Publicidade e Propaganda.</p>
-            <p class="text-justify">Em 1985 o currículo do curso de Comunicação é reformulado e são estabelecidas as habilitações em Jornalismo, em Publicidade e Propaganda e em Relações Públicas para a formação de bacharéis em comunicação.</p>
-            <p class="text-justify">O Programa de Pós-Graduação em Comunicação e Informação - PPGCOM é aprovado e implantado em 1996, em nível de Mestrado, sendo ampliado em 2000 com a implantação do Doutorado.</p>
+            <p class="text-justify">
+              Estão na sua origem o Curso de Graduação em Jornalismo, criado em 1952, vinculado à antiga Faculdade de Filosofia, e a Escola de Biblioteconomia e Documentação, formada a partir do curso técnico de Biblioteconomia, de 1947, agregado à Faculdade de Ciências Econômicas e aprovado como curso superior em 1958.
+            </p>
+            <p class="text-justify">
+              Com a criação da FABICO, o antigo Jornalismo é reformulado, tornando-se uma das habilitações do novo curso de Comunicação Social. Em agosto de 1970 é feita a mudança para o prédio da Gráfica da Universidade, no Campus Saúde, onde passa a ocupar o terceiro andar, com salas de aula, sala de redação, laboratório fotográfico, chefia do Departamento de Comunicação e Direção da nova Unidade.
+            </p>
+            <p class="text-justify">
+              Em 1972, o curso de Biblioteconomia e Documentação e a Biblioteca da Faculdade instalam-se no prédio, ocupando o quarto andar. Nesta época são estabelecidas as habilitações unificadas do curso de Comunicação Social – Jornalismo Gráfico e Audiovisual, Relações Públicas e Publicidade e Propaganda.
+            </p>
+            <p class="text-justify">
+              Em 1985 o currículo do curso de Comunicação é reformulado e são estabelecidas as habilitações em Jornalismo, em Publicidade e Propaganda e em Relações Públicas para a formação de bacharéis em Comunicação.
+            </p>
+            <p class="text-justify">
+              O Programa de Pós-Graduação em Comunicação e Informação - PPGCOM é aprovado e implantado em 1996, em nível de Mestrado, sendo ampliado em 2000 com a implantação do Doutorado.
+            </p>
             <p class="text-justify">Na área de Ciências da Informação são criados o curso de graduação em Arquivologia, no ano de 1999, e o curso de Museologia, em 2008.</p>
-            <p class="text-justify">Desde 2006, com a transferência da Gráfica da Universidade para Rua Ramiro Barcelos, 2500, a FABICO passou a ocupar todo o prédio e parte do Anexo 1 do Campus Saúde.</p>
-            <p class="text-justify">Em 2016, como decorrência de reformulações do MEC para a área da comunicação, são extintas as habilitações e criados os cursos de Jornalismo, Relações Públicas e Publicidade e Propaganda.</p>
+            <p class="text-justify">
+              Desde 2006, com a transferência da Gráfica da Universidade para Rua Ramiro Barcelos, 2500, a FABICO passou a ocupar todo o prédio e parte do Anexo 1 do Campus Saúde. Abriga 1.532 alunos, 71 professores, 40 técnico-administrativos e equipe terceirizada.
+            </p>
+            <p class="text-justify">
+              Em 2016, como decorrência de reformulações do MEC para a área da comunicação, são extintas as habilitações e criados os cursos de Jornalismo, Relações Públicas e Publicidade e Propaganda.
+            </p>
           </div>
         </div>
         <div class="row bloco-container">
@@ -111,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="conselho-unidade">
+      <div id="conselho">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title">Conselho da Unidade</h2>
@@ -249,7 +288,7 @@
           </div>
         </div>
       </div>
-      <div class="administracao">
+      <div id="administracao">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title">Administração</h2>
@@ -293,7 +332,7 @@
           <?php endwhile; endif; ?>
         </div>
       </div>
-      <div class="gerencia-administrativa">
+      <div id="gerencia">
         <div class="row bloco-container">
           <div class="col-12">
           <h2>Gerência Administrativa</h2>
@@ -323,42 +362,42 @@
           </div>
         </div>
       </div>
-      <div class="departamentos">
+      <div id="departamentos">
         <div class="row bloco-container">
           <div class="col-12">
           <h2 class="title">Departamentos</h2>
           </div>
         </div>
       </div>
-      <div class="in-fabico">
+      <div id="in-fabico">
         <div class="row bloco-container">
           <div class="col-12">
           <h2 class="title">InFabico</h2>
           </div>
         </div>
       </div>
-      <div class="infraestrutura">
+      <div id="infraestrutura">
         <div class="row bloco-container">
           <div class="col-12">
           <h2 class="title">Infraestrutura</h2>
           </div>
         </div>
       </div>
-      <div class="setores-e-ramais">
+      <div id="setores">
         <div class="row bloco-container">
           <div class="col-12">
           <h2 class="title">Setores e Ramais</h2>
           </div>
         </div>
       </div>
-      <div class="servidores">
+      <div id="servidores">
         <div class="row bloco-container">
           <div class="col-12">
           <h2 class="title">Servidores</h2>
           </div>
         </div>
       </div>
-      <div class="nau">
+      <div id="nau">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title"><a href="https://www.ufrgs.br/naufabico/">NAU - Núcleo de Avaliação da Unidade</a></h2>
@@ -401,7 +440,7 @@
           </div>
         </div>
       </div>
-      <div class="ngd">
+      <div id="ngd">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title">NGD - Núcleo de Gestão de Desempenho</h2>
@@ -416,7 +455,7 @@
           </div>
         </div>
       </div>
-      <div class="cosat">
+      <div id="cosat">
         <div class="row bloco-container">
           <div class="col-12">
             <h2 class="title"><a href="https://www.ufrgs.br/cosatfabico/">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></h2>
@@ -446,7 +485,7 @@
           </div>
         </div>
       </div>
-      <div class="biblioteca-fabico">
+      <div id="biblioteca">
         <div class="row bloco-container">
           <div class="col-12">
             <p class="text-justify"><a href="https://www.ufrgs.br/bibfbc/">Clique aqui</a> para acessar o site da biblioteca da FABICO.</p>

@@ -6,9 +6,45 @@
   background-color: black;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* BODY */
 body {
   font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none !important;
+}
+
+.top-header {
+  padding: 48px 16px 16px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.side-menu {
+  position: sticky;
+  top: 130px;
+}
+
+:target {
+  scroll-margin-top: 110px;
+}
+
+.side-menu ul li {
+  margin-bottom: 16px;
+}
+
+.side-menu ul li:hover {
+  margin-left: 5px;
+  transition: margin-left 0.5s;
+}
+
+.bg-header {
+  background-color: #fdb515;
 }
 
 /* BOX SHADOWS */
@@ -49,6 +85,13 @@ body {
   margin: 10px;
 }
 
+/* CONTAINERS */
+.bloco-container-col-9 {
+  max-width: 1010px;
+  padding-top: 48px;
+  padding-right: 48px;
+}
+
 .carousel-item-style {
   height: 300px;
   margin-top: 30px;
@@ -67,14 +110,16 @@ body {
 }
 
 @media (min-width: 768px) {
-  .bloco-container {
+  .bloco-container,
+  .top-header {
     padding: 48px;
   }
 }
 
 /* LARGE DEVICES */
 @media (min-width: 992px) {
-  .bloco-container {
+  .bloco-container,
+  .top-header {
     padding: 48px 111px;
   }
 }
@@ -86,6 +131,10 @@ body {
     padding: 0;
     max-width: 1010px;
   }
+
+  .top-header {
+    padding: 48px 178px;
+  }
 }
 
 @media (min-width: 1366px) {
@@ -93,6 +142,15 @@ body {
     margin: 48px auto;
     padding: 0;
     max-width: 1010px;
+  }
+
+  .top-header div,
+  .top-header {
+    max-width: 1010px;
+    margin: 0 auto;
+  }
+  .top-header {
+    padding: 48px 0;
   }
 }
 
