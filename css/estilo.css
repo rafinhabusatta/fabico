@@ -25,6 +25,8 @@ ul {
   margin-right: 0;
 }
 
+/* SIDE MENU */
+
 .side-menu {
   position: sticky;
   top: 130px;
@@ -34,13 +36,22 @@ ul {
   scroll-margin-top: 110px;
 }
 
-.side-menu ul li {
+.menu-item {
   margin-bottom: 16px;
 }
 
-.side-menu ul li:hover {
+.menu-item a:hover {
   margin-left: 5px;
   transition: margin-left 0.5s;
+}
+
+.menu-subsection {
+  display: none;
+  padding-left: 15px;
+}
+
+.menu-item.active .menu-subsection {
+  display: block;
 }
 
 .bg-header {
