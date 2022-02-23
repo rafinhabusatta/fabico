@@ -15,3 +15,14 @@
 //   },
 //   false
 // )
+var header = document.querySelector('.side-menu-ul')
+var lis = header.getElementsByClassName('menu-item')
+for (var i = 0; i < lis.length; i++) {
+  lis[i].addEventListener('click', function () {
+    var current = document.getElementsByClassName('active')
+    if (current.length > 0) {
+      current[0].className = current[0].className.replace(' active', '')
+    }
+    this.className += ' active'
+  })
+}

@@ -18,22 +18,28 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-lg-3 d-none d-lg-block">
+    <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
-        <ul>
-          <li><a href="#historico">Histórico</a></li>
-          <li><a href="#conselho">Conselho da Unidade</a></li>
-          <li><a href="#administracao">Administração</a></li>
-          <li><a href="#gerencia">Gerência Administrativa</a></li>
-          <li><a href="#departamentos">Departamentos</a></li>
-          <li><a href="#in-fabico">InFabico</a></li>
-          <li><a href="#infraestrutura">Infraestrutura</a></li>
-          <li><a href="#setores">Setores e Ramais</a></li>
-          <li><a href="#servidores">Servidores</a></li>
-          <li><a href="#nau">NAU - Núcleo de Avaliação da Unidade</a></li>
-          <li><a href="#ngd">NGD - Núcleo de Gestão de Desempenho</a></li>
-          <li><a href="#cosat">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></li>
-          <li><a href="#biblioteca">Biblioteca Fabico</a></li>
+        <ul class="side-menu-ul">
+          <li class="menu-item">
+            <a href="#historico">Histórico</a>
+            <ul class="menu-subsection">
+              <li><a href="#memorias">Memórias da Fabico</a></li>
+              <li><a href="#galeria">Galeria de Ex-Diretores</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#conselho">Conselho da Unidade</a></li>
+          <li class="menu-item"><a href="#administracao">Administração</a></li>
+          <li class="menu-item"><a href="#gerencia">Gerência Administrativa</a></li>
+          <li class="menu-item"><a href="#departamentos">Departamentos</a></li>
+          <li class="menu-item"><a href="#in-fabico">InFabico</a></li>
+          <li class="menu-item"><a href="#infraestrutura">Infraestrutura</a></li>
+          <li class="menu-item"><a href="#setores">Setores e Ramais</a></li>
+          <li class="menu-item"><a href="#servidores">Servidores</a></li>
+          <li class="menu-item"><a href="#nau">NAU - Núcleo de Avaliação da Unidade</a></li>
+          <li class="menu-item"><a href="#ngd">NGD - Núcleo de Gestão de Desempenho</a></li>
+          <li class="menu-item"><a href="#cosat">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></li>
+          <li class="menu-item"><a href="#biblioteca">Biblioteca Fabico</a></li>
         </ul>
       </nav>
     </div>
@@ -59,7 +65,7 @@
       </div> -->
       <div id="historico">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title">Histórico</h2>
             <p class="text-justify">
               Estão na sua origem o Curso de Graduação em Jornalismo, criado em 1952, vinculado à antiga Faculdade de Filosofia, e a Escola de Biblioteconomia e Documentação, formada a partir do curso técnico de Biblioteconomia, de 1947, agregado à Faculdade de Ciências Econômicas e aprovado como curso superior em 1958.
@@ -86,9 +92,9 @@
           </div>
         </div>
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10" id="memorias">
             <h3>Memórias da Fabico</h3>
-            <div class="box-sombra mt-3">
+            <div class="box-sombra mt-3 p-5">
               <a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Livro Digital - 40 anos</a>
               <p class="text-justify">Num processo complexo, dinâmico e inusitado, a FABICO completa 40 anos. Muitas histórias e estórias fazem parte dessa trajetória. E para que suas memórias não caiam no esquecimento, se inicia o registro das lembranças dos alunos, professores e técnico-administrativos que dela fizeram ou fazem parte.</p>
               <p class="text-justify">Este espaço está aberto para todos aqueles que quiserem enviar sua colaboração. Alegres, tristes, divertidas, importantes ou fortuitas, tanto faz! Todas as colaborações são importantes, porque representam recortes desse caminho. Faça parte dessa história!</p>
@@ -96,7 +102,7 @@
           </div>
         </div>
         <div class="row mt-5 bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10" id="galeria">
             <h3>Galeria de Ex-Diretores</h3>
             <div class="container-ex-diretor mt-3">
               <h4>Karla Maria Müller - 2016-2020</h4>
@@ -151,13 +157,13 @@
       </div>
       <div id="conselho">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title">Conselho da Unidade</h2>
             <p class="text-justify">O Conselho da Unidade é o órgão de deliberação superior no âmbito da Faculdade de Biblioteconomia e Comunicação, tendo sua composição, competências e funcionamento definidos e regulados no Estatuto e no Regimento Geral da Universidade e no Regimento Interno, aprovado pelo CONSELHO UNIVERSITÁRIO, em sessão de 15 de janeiro de 2016, tendo em vista o constante no processo nº 23078.029632/2015-41, de acordo com o Parecer nº 392/2015 da Comissão de Legislação e Regimentos e as emendas aprovadas em plenário.</p>
           </div>
         </div>
         <div class="row  bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h3>Composição atual do Conselho da Faculdade de Biblioteconomia e Comunicação</h3>
             <div class="card-equipe">
               <h4>Direção</h4>
@@ -289,7 +295,7 @@
       </div>
       <div id="administracao">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title">Administração</h2>
             <p class="text-justify">
               A Direção e a Gerência Administrativa têm por objetivo viabilizar e promover o ensino, a pesquisa e a extensão nas áreas das Ciências da Informação (Arquivologia, Biblioteconomia e Museologia) e Comunicação (Jornalismo, Relações Públicas e Publicidade Propaganda), contribuindo para o pleno desenvolvimento da sociedade nos planos político, social, econômico e cultural.
@@ -333,7 +339,7 @@
       </div>
       <div id="gerencia">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2>Gerência Administrativa</h2>
           <p class="text-justify">
             Abrange atividades administrativas e acadêmicas ligadas aos Departamentos, às Comissões de Graduação, Extensão e Pesquisa, agrupadas em setores.
@@ -363,42 +369,42 @@
       </div>
       <div id="departamentos">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2 class="title">Departamentos</h2>
           </div>
         </div>
       </div>
       <div id="in-fabico">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2 class="title">InFabico</h2>
           </div>
         </div>
       </div>
       <div id="infraestrutura">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2 class="title">Infraestrutura</h2>
           </div>
         </div>
       </div>
       <div id="setores">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2 class="title">Setores e Ramais</h2>
           </div>
         </div>
       </div>
       <div id="servidores">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
           <h2 class="title">Servidores</h2>
           </div>
         </div>
       </div>
       <div id="nau">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title"><a href="https://www.ufrgs.br/naufabico/">NAU - Núcleo de Avaliação da Unidade</a></h2>
             <p class="text-justify">O Núcleo de Avaliação da Unidade (NAU) é organismo com atuação autônoma segundo o Regimento Interno da Faculdade de Biblioteconomia e Comunicação aprovado pelo Conselho Universitário da UFRGS (CONSUN – Decisão 025/2016) e vincula-se diretamente à Secretaria de Avaliação Institucional (SAI) na condição de executor de trabalhos destinados à Comissão Própria de Avaliação (CPA) da Universidade.</p>
             <p class="text-justify">O NAU tem por objetivo realizar ações de avaliação interna nas dimensões determinadas pela legislação federal (Lei 10.861, de 14/04/204) que implantou o Sistema Nacional de Avaliação da Educação Superior (SINAES) e de acordo com disposições do CONSUN (Decisão 184/2009).</p>
@@ -407,25 +413,49 @@
             <p class="text-justify"><a href="https://www.ufrgs.br/naufabico/">Clique aqui</a> para visitar o site do NAU.</p>
           </div>
         </div>
-        <div class="row equipe justify-content-around bloco-container">
-          <?php 
-            $args = array(
-            'post_type' => 'team_nau',
-            );
-            $nau = new WP_Query ( $args );
+        <!-- <div class="row equipe justify-content-around bloco-container">
+          <?//php 
+            // $args = array(
+            // 'post_type' => 'team_nau',
+            // );
+            // $nau = new WP_Query ( $args );
           ?>
-          <?php if ($nau -> have_posts()) : while ($nau -> have_posts()) : $nau -> the_post(); ?>
+          <?//php if ($nau -> have_posts()) : while ($nau -> have_posts()) : $nau -> the_post(); ?>
             <div class="col-12 col-md-5 col-lg-4 mb-4">
               <div class="b-left box-equipe">
                   <h3 class="font-weight-bold">
-                      <?php the_title() ?>
+                      <?//php the_title() ?>
                   </h3>
                   <p class="mb-3">
-                      <?php echo get_field("cargo")?>
+                      <?//php echo get_field("cargo")?>
                   </p>
               </div>
             </div>
-          <?php endwhile; endif; ?>
+          <?//php endwhile; endif; ?>
+        </div> -->
+        <div class="row bloco-container">
+          <div class="col-12 col-lg-10">
+            <div class="row equipe justify-content-around">
+              <?php 
+                $args = array(
+                'post_type' => 'team_nau',
+                );
+                $nau = new WP_Query ( $args );
+              ?>
+              <?php if ($nau -> have_posts()) : while ($nau -> have_posts()) : $nau -> the_post(); ?>
+                <div class="col-12 col-md-5 col-lg-4 mb-4">
+                  <div class="b-left box-equipe">
+                      <h3 class="font-weight-bold">
+                          <?php the_title() ?>
+                      </h3>
+                      <p class="mb-3">
+                          <?php echo get_field("cargo")?>
+                      </p>
+                  </div>
+                </div>
+              <?php endwhile; endif; ?>
+            </div>
+          </div>
         </div>
         <div class="row bloco-container">
           <div class="col-12">
@@ -441,7 +471,7 @@
       </div>
       <div id="ngd">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title">NGD - Núcleo de Gestão de Desempenho</h2>
             <p class="text-justify">O Núcleo de Gestão de Desempenho da FABICO tem por objetivo:</p>
             <ul>
@@ -456,7 +486,7 @@
       </div>
       <div id="cosat">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2 class="title"><a href="https://www.ufrgs.br/cosatfabico/">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></h2>
             <p class="text-justify">A COSAT - Comissão de Saúde e Ambiente de Trabalho - é um órgão de natureza deliberativa sobre questões pertinentes à saúde, à segurança e ao ambiente de trabalho. A COSAT tem como finalidade a melhoria das condições de trabalho e do meio ambiente, buscando soluções que promovam um estado de bem-estar físico, psíquico e social do trabalhador e a qualificação do meio ambiente, tendo principalmente, uma função preventiva.</p>
             <p class="text-justify">As COSAT, no âmbito da UFRGS, foram criadas pela Portaria 1992, de 19 de maio de 1997, assinada pela Reitora Profa.
@@ -486,7 +516,7 @@
       </div>
       <div id="biblioteca">
         <div class="row bloco-container">
-          <div class="col-12">
+          <div class="col-12 col-lg-10">
             <h2>Biblioteca Fabico</h2>
             <p class="text-justify"><a href="https://www.ufrgs.br/bibfbc/">Clique aqui</a> para acessar o site da biblioteca da FABICO.</p>
           </div>
