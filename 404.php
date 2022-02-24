@@ -15,19 +15,19 @@ get_header();
 
 			<section class="error-404 not-found">
 				<header class="page-header">
-					<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'starter-theme' ); ?></h1>
+					<h1 class="page-title"><?php esc_html_e( 'Oops! Parece que não encontramos o que você queria', 'starter-theme' ); ?></h1>
 				</header><!-- .page-header -->
 
 				<div class="page-content">
 					<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'starter-theme' ); ?></p>
 
 					<?php
-					get_search_form();
+					// get_search_form();
 
-					the_widget( 'WP_Widget_Recent_Posts' );
+					// the_widget( 'WP_Widget_Recent_Posts' );
 					?>
 
-					<div class="widget widget_categories">
+					<!-- <div class="widget widget_categories">
 						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'starter-theme' ); ?></h2>
 						<ul>
 							<?php
@@ -40,14 +40,14 @@ get_header();
 							) );
 							?>
 						</ul>
-					</div><!-- .widget -->
+					</div>.widget -->
 
 					<?php
 					/* translators: %1$s: smiley */
-					$starter_theme_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'starter-theme' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$starter_theme_archive_content" );
+					// $starter_theme_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'starter-theme' ), convert_smilies( ':)' ) ) . '</p>';
+					// the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$starter_theme_archive_content" );
 
-					the_widget( 'WP_Widget_Tag_Cloud' );
+					// the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
 
 				</div><!-- .page-content -->
