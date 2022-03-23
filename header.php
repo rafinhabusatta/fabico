@@ -35,18 +35,24 @@
 	<body <?php body_class(); ?>>
 		<header id="masthead" class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light bg-fabico">
-			<?php
-				wp_nav_menu( array(
-					'menu'              => 'primary',
-					'theme_location'    => 'primary',
-					'depth'             => 2,
-					'container'         => 'div',
-					'container_class'   => 'collapse navbar-collapse',
-					'container_id'      => 'bs-example-navbar-collapse-1',
-					'menu_class'        => 'nav navbar-nav',
-					'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-					'walker'            => new wp_bootstrap_navwalker())
-				);
-			?>
+				<a href="<?php echo site_url(); ?>" class="navbar-brand">
+					<img src="<?php bloginfo("template_directory"); ?>/assets/fabico.png" alt="Faculdade de Biblioteconomia e Comunicação da Universidade Federal do Rio Grande do Sul">
+				</a>
+				<?php
+					if ( function_exists( 'the_custom_logo' ) ) {
+						the_custom_logo();
+					}
+					wp_nav_menu( array(
+						'menu'              => 'primary',
+						'theme_location'    => 'primary',
+						'depth'             => 2,
+						'container'         => 'div',
+						'container_class'   => 'collapse navbar-collapse',
+						'container_id'      => 'bs-example-navbar-collapse-1',
+						'menu_class'        => 'nav navbar-nav ml-auto',
+						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+						'walker'            => new wp_bootstrap_navwalker())
+					);
+				?>
 			</nav>
 		</header>

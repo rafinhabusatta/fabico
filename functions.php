@@ -6,8 +6,10 @@
  *
  * @package starter-theme
  */
+
 // Register Nav Walker class_alias
 require_once('class-wp-bootstrap-navwalker.php');
+
 if ( ! function_exists( 'starter_theme_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
