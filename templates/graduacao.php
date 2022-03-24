@@ -20,10 +20,10 @@
   <div class="row mx-0 mt-3">
     <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
-        <ul>
+        <ul class="side-menu-ul">
           <li class="menu-item">
             <a href="#arquivologia">Arquivologia</a>
-            <ul>
+            <ul class="menu-subsection">
               <li><a href="#historico-arquivologia">Histórico</a></li>
               <li><a href="#comgrads-arquivologia">Comgrad/AQL</a></li>
               <li><a href="#ingresso-arquivologia">Ingresso e Vagas</a></li>
