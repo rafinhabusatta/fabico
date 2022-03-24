@@ -18,199 +18,231 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-lg-3 d-none d-lg-block">
+    <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
         <ul>
-          <li><a href="#arquivologia">Arquivologia</a></li>
-          <li><a href="#biblioteconomia">Biblioteconomia</a></li>
-          <li><a href="#jornalismo">Jornalismo</a></li>
-          <li><a href="#museologia">Museologia</a></li>
-          <li><a href="#publicidade">Publicidade e Propaganda</a></li>
-          <li><a href="#relacoes-publicas">Relações Públicas</a></li>
+          <li class="menu-item">
+            <a href="#arquivologia">Arquivologia</a>
+            <ul>
+              <li><a href="#historico-arquivologia">Histórico</a></li>
+              <li><a href="#comgrads-arquivologia">Comgrad/AQL</a></li>
+              <li><a href="#ingresso-arquivologia">Ingresso e Vagas</a></li>
+              <li><a href="#curriculo-arquivologia">Organização Curricular</a></li>
+              <li><a href="#projeto-pedagogico-arquivologia">Projeto Pedagógico</a></li>
+              <li><a href="#nucleo-docente-arquivologia">Núcleo Docente Estruturante</a></li>
+              <li><a href="#simposio-arquivologia" class="disabled">Simpósio de Pesquisa em Arquivologia</a></li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#biblioteconomia">Biblioteconomia</a></li>
+          <li class="menu-item"><a href="#jornalismo">Jornalismo</a></li>
+          <li class="menu-item"><a href="#museologia">Museologia</a></li>
+          <li class="menu-item"><a href="#publicidade">Publicidade e Propaganda</a></li>
+          <li class="menu-item"><a href="#relacoes-publicas">Relações Públicas</a></li>
         </ul>
       </nav>
     </div>
     <div class="col-12 col-lg-9">
-      <div id="arquivologia" class="row">
-        <div class="col-12">
-          <div class="row">
-            <div class="col-12">
-              <h2 class="title">Arquivologia</h2>
-            </div>
+      <div id="arquivologia">   
+        <div class="row">
+          <div class="col-12">
+            <h2 class="title">Arquivologia</h2>
           </div>
-          <div class="row">
-            <div class="col-12">
-              <p class="text-justify">
-                Acompanha o processo evolutivo tecnológico na área, dedicando-se à organização e gestão da informação arquivística contida em diferentes suportes. Direciona a formação do arquivista para o planejamento e implementação de arquivos, utilizando técnicas de gestão de documentos eletrônicos, tecnologias para a sua preservação e conservação, microfilmagem e digitalização em sistemas híbridos e as convergências de mídias e multimídias.
-              </p>
-              <p class="text-justify">
-                Tem como objetivo formar profissionais capazes de disponibilizar informações arquivísticas em organizações públicas e privadas, contribuindo para o desenvolvimento administrativo, técnico científico e a preservação da memória para uma sociedade de melhor qualidade.
-              </p>
-              <p class="text-justify">
-                A titulação conferida é a de <strong>Bacharel em Arquivologia</strong>.
-              </p>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <p class="text-justify">
+              Acompanha o processo evolutivo tecnológico na área, dedicando-se à organização e gestão da informação arquivística contida em diferentes suportes. Direciona a formação do arquivista para o planejamento e implementação de arquivos, utilizando técnicas de gestão de documentos eletrônicos, tecnologias para a sua preservação e conservação, microfilmagem e digitalização em sistemas híbridos e as convergências de mídias e multimídias.
+            </p>
+            <p class="text-justify">
+              Tem como objetivo formar profissionais capazes de disponibilizar informações arquivísticas em organizações públicas e privadas, contribuindo para o desenvolvimento administrativo, técnico científico e a preservação da memória para uma sociedade de melhor qualidade.
+            </p>
+            <p class="text-justify">
+              A titulação conferida é a de <strong>Bacharel em Arquivologia</strong>.
+            </p>
           </div>
-          <div class="row historico-cursos">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Histórico</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <p class="text-justify">
-                    A profissão de Arquivista foi regulamentada pelo Decreto nº 82.590 de 06 de novembro de 1978. O Curso de Arquivologia foi criado em 30 de julho de 1999 pela Decisão nº 112/99 do Conselho Universitário da UFRGS, com sua primeira turma de alunos ingressando no ano de 2000. O curso acompanha o processo evolutivo tecnológico da área, dedicando-se à organização e gestão de informação arquivística contida em diferentes suportes. Direciona a formação do aluno para o planejamento e a implementação de arquivos, utilizando técnicas de gestão de documentos eletrônicos, tecnologias para a sua preservação e conservação, microfilmagem e digitalização em sistemas híbridos e as convergências de mídias.
-                  </p>
-                </div>
+        </div>
+        <div class="row" id="historico-arquivologia">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>Histórico</h3>
               </div>
             </div>
-          </div>
-          <div class="row comgrags-cursos">
-            <div class="col-12">
-              <div class="row comgrad-membros">
-                <div class="col-12">
-                  <h3>Composição ComGrad/AQL</h3>
-                </div>
-              </div>
-              <div class="row comgrad-aql-membros mt-3">
-                <div class="col-12">
-                  <h4>Jorge Eduardo Enriquez Vivar</h4>
-                  <p>Coordenador</p>
-                </div>
-                <div class="col-12">
-                  <h4>Thiago Henrique Bragato Barros</h4>
-                  <p>Coordenador Substituto</p>
-                </div>
-                <div class="col-12">
-                  <h5>Mandatos de 07/05/2021 até 06/05/2023</h5>
-                </div>
-                <div class="col-12">
-                  <h4>Jorge Eduardo Enriquez Vivar</h4>
-                  <h4>Leolíbia Luana Linden</h4>
-                  <h4>Rafael Port da Rocha</h4>
-                  <h4>Rita de Cássia Portela da Silva</h4>
-                  <h4>Thiago Henrique Bragato Barros</h4>
-                </div>
-                <div class="col-12">
-                  <h5>Mandatos de 07 de abril de 2021 a 06 de abril de 2023</h5>
-                </div>
-                <div class="col-12">
-                  <h4>Bruna Argenta Model</h4>
-                  <p>Representante dos Técnicos Administrativos</p>
-                  <p>Mandato: 28/01/2021 a 27/01/2023</p>
-                </div>
-                <div class="col-12">
-                  <h4>Rafael dos Santos Werhli</h4>
-                  <p>Representante Discente</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12">
-                  <h3>Contato</h3>
-                  <ul>
-                    <li>E-mail: <a href="mailto:comgradaql@ufrgs.br">comgradaql@ufrgs.br</a></li>
-                    <li>Secretaria: Quando houver necessidade de encaminhar documentos impressos e colher assinaturas;</li>
-                    <li>Atendimento presencial: Segundas-feiras, das 17:00 às 19:30.</li>
-                    <li>Sala: 217 - Anexo 1</li>
-                    <li>Telefone: (51) 3308.5105.</li>
-                    <li>OBS: em todas as situações, o retorno é em 2 dias úteis</li>
-                  </ul>
-                </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="text-justify">
+                  A profissão de Arquivista foi regulamentada pelo Decreto nº 82.590 de 06 de novembro de 1978. O Curso de Arquivologia foi criado em 30 de julho de 1999 pela Decisão nº 112/99 do Conselho Universitário da UFRGS, com sua primeira turma de alunos ingressando no ano de 2000. O curso acompanha o processo evolutivo tecnológico da área, dedicando-se à organização e gestão de informação arquivística contida em diferentes suportes. Direciona a formação do aluno para o planejamento e a implementação de arquivos, utilizando técnicas de gestão de documentos eletrônicos, tecnologias para a sua preservação e conservação, microfilmagem e digitalização em sistemas híbridos e as convergências de mídias.
+                </p>
               </div>
             </div>
           </div>
-          <div class="row ingresso-e-vagas">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Ingresso e Vagas</h3>
-                </div>
+        </div>
+        <div class="row" id="comgrads-arquivologia">
+          <div class="col-12">
+            <div class="row comgrad-membros">
+              <div class="col-12">
+                <h3>Composição ComGrad/AQL</h3>
               </div>
-              <div class="row mt-3">
-                <div class="col-12">
-                  <p class="text-justify">
-                    O curso oferece <b>30 vagas anuais</b> preenchidas pelos candidatos aprovados no <a href="http://www.vestibular.ufrgs.br/" target="_blank">Concurso Vestibular</a> da Universidade.
-                  </p>
-                  <p class="text-justify">Todos os aprovados ingressam no 1º semestre letivo.</p>
+            </div>
+            <div class="row bloco-container">
+              <div class="col-12 col-lg-10">
+                <div class="row equipe justify-content-around">
+                  <?php 
+                    $args = array(
+                    'post_type' => 'team_nau',
+                    );
+                    $nau = new WP_Query ( $args );
+                  ?>
+                  <?php if ($nau -> have_posts()) : while ($nau -> have_posts()) : $nau -> the_post(); ?>
+                    <div class="col-12 col-md-5 col-lg-4 mb-4">
+                      <div class="b-left box-equipe">
+                          <h3 class="font-weight-bold">
+                              <?php the_title() ?>
+                          </h3>
+                          <p class="mb-3">
+                              <?php echo get_field("cargo")?>
+                          </p>
+                      </div>
+                    </div>
+                  <?php endwhile; endif; ?>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row organizacao-curricular">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Organização Curricular</h3>
-                </div>
-              </div> 
-              <div class="row mt-3">
-                <div class="col-12">
-                  <p class="text-justify">
-                    O currículo do curso de Arquivologia oferece uma sequência de disciplinas obrigatórias e eletivas, ordenadas por matrículas semestrais, em uma seriação aconselhada. Essas disciplinas compõem um elenco organizado nas áreas de fundamentação geral, habilidades instrumentais e conhecimentos específicos. O curso exige a realização de estágio curricular obrigatório em sua última fase.
-                  </p>
-                  <p class="text-justify">
-                    Seguir a seriação aconselhada é a melhor forma do estudante concluir o curso na duração prevista e evitar problemas em sua matrícula.
-                  </p>
-                  <ul>
-                    <li><b>Créditos Obrigatórios: 113 (1.695 horas)</b></li>
-                    <li><b>Créditos Eletivos: 16 (240 horas)</b></li>
-                    <li><b>Créditos Complementares: 9 (135 horas)</b></li>
-                    <li><b>Estágio em Arquivologia I: 10 créditos convertidos (150 horas)</b></li>
-                    <li><b>Estágio em Arquivologia II: 10 créditos convertidos (150 horas)</b></li>
-                    <li><b>Introdução ao Trabalho de Conclusão de Curso: 2 créditos convertidos (30 horas)</b></li>
-                    <li><b>Trabalho de Conclusão de Curso: 10 créditos (150 horas)</b></li>
-                    <li><b>Total de créditos para diplomação: 170</b></li>
-                    <li><b>Carga horária total do curso: 2550 horas-aula</b></li>
-                    <li><b>Conclusão aconselhada: 8 semestres</b></li>
-                  </ul>
-                  <p><a href="http://www1.ufrgs.br/graduacao/xInformacoesAcademicas/curriculo.php?CodCurso=301&CodHabilitacao=33&CodCurriculo=77" target="_blank">Currículo e Súmulas das Disciplinas</a></p>
-                </div>
-              </div>            
-            </div>
-          </div>
-          <div class="row projeto-pedagogico">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Projeto Pedagógico</h3>
-                </div>
+            <!-- <div class="row comgrad-aql-membros mt-3">
+              <div class="col-12">
+                <h4>Jorge Eduardo Enriquez Vivar</h4>
+                <p>Coordenador</p>
               </div>
-              <div class="row mt-3">
-                <div class="col-12">
-                  <p class="text-justify">
-                    O Projeto Pedagógico do Curso de Arquivologia foi atualizado em 2014 pela comissão formada pelos professores Jorge Eduardo Enríquez Vivar, Moisés Rockembach, Rafael Port da Rocha, Rodrigo Silva Caxias de Sousa,Valéria Raquel Bertotti e pelos técnicos em assuntos educacionais Anamaria Teixeira da Rosa, Cláudia Pereira Antunes, Joseane Lima, Ludmila Oliveira, juntamente ao representante discente do curso Francisco Alcides Cougo Junior.
-                  </p>
-                  <p><a href="<?php bloginfo("template_directory"); ?>/docs/PPCARQUIVOLOGIA-2014.pdf" target="_blank">Projeto Pedagógico do Curso de Arquivologia 2014</a></p>
-                  <p><a href="<?php bloginfo("template_directory"); ?>/docs/PPCARQUIVOLOGIA-2017.pdf">Projeto Pedagógico do Curso de Arquivologia 2017 - atualização</a></p>
-                </div>
+              <div class="col-12">
+                <h4>Thiago Henrique Bragato Barros</h4>
+                <p>Coordenador Substituto</p>
+              </div>
+              <div class="col-12">
+                <h5>Mandatos de 07/05/2021 até 06/05/2023</h5>
+              </div>
+              <div class="col-12">
+                <h4>Jorge Eduardo Enriquez Vivar</h4>
+                <h4>Leolíbia Luana Linden</h4>
+                <h4>Rafael Port da Rocha</h4>
+                <h4>Rita de Cássia Portela da Silva</h4>
+                <h4>Thiago Henrique Bragato Barros</h4>
+              </div>
+              <div class="col-12">
+                <h5>Mandatos de 07 de abril de 2021 a 06 de abril de 2023</h5>
+              </div>
+              <div class="col-12">
+                <h4>Bruna Argenta Model</h4>
+                <p>Representante dos Técnicos Administrativos</p>
+                <p>Mandato: 28/01/2021 a 27/01/2023</p>
+              </div>
+              <div class="col-12">
+                <h4>Rafael dos Santos Werhli</h4>
+                <p>Representante Discente</p>
+              </div>
+            </div> -->
+            <div class="row">
+              <div class="col-12">
+                <h3>Contato</h3>
+                <ul>
+                  <li>E-mail: <a href="mailto:comgradaql@ufrgs.br">comgradaql@ufrgs.br</a></li>
+                  <li>Secretaria: Quando houver necessidade de encaminhar documentos impressos e colher assinaturas;</li>
+                  <li>Atendimento presencial: Segundas-feiras, das 17:00 às 19:30.</li>
+                  <li>Sala: 217 - Anexo 1</li>
+                  <li>Telefone: (51) 3308.5105.</li>
+                  <li>OBS: em todas as situações, o retorno é em 2 dias úteis</li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="row nucleo-docente">
-            <div class="col-12">
-              <div class="row">
-                <div class="col-12">
-                  <h3>Núcleo Docente Estruturante</h3>
-                </div>
+        </div>
+        <div class="row" id="ingresso-arquivologia">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>Ingresso e Vagas</h3>
               </div>
-              <div class="row mt-3">
-                <div class="col-12">
-                  <h4>Moisés Rockembach</h4>
-                  <h4>Thiago Henrique Bragato Barros</h4>
-                  <h4>Leolíbia Luana Linden</h4>
-                  <h4>Valéria Raquel Bertotti</h4>
-                  <h4>Rita de Cássia Portela da Silva</h4>
-                </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <p class="text-justify">
+                  O curso oferece <b>30 vagas anuais</b> preenchidas pelos candidatos aprovados no <a href="http://www.vestibular.ufrgs.br/" target="_blank">Concurso Vestibular</a> da Universidade.
+                </p>
+                <p class="text-justify">Todos os aprovados ingressam no 1º semestre letivo.</p>
               </div>
-              <p><a href="<?php bloginfo("template_directory"); ?>/docs/RegimentoNDEArquivologia.doc">Regimento do Núcleo Docente Estruturante do Curso de Arquivologia</a></p>
             </div>
           </div>
-
+        </div>
+        <div class="row" id="curriculo-arquivologia">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>Organização Curricular</h3>
+              </div>
+            </div> 
+            <div class="row mt-3">
+              <div class="col-12">
+                <p class="text-justify">
+                  O currículo do curso de Arquivologia oferece uma sequência de disciplinas obrigatórias e eletivas, ordenadas por matrículas semestrais, em uma seriação aconselhada. Essas disciplinas compõem um elenco organizado nas áreas de fundamentação geral, habilidades instrumentais e conhecimentos específicos. O curso exige a realização de estágio curricular obrigatório em sua última fase.
+                </p>
+                <p class="text-justify">
+                  Seguir a seriação aconselhada é a melhor forma do estudante concluir o curso na duração prevista e evitar problemas em sua matrícula.
+                </p>
+                <ul>
+                  <li><b>Créditos Obrigatórios: 113 (1.695 horas)</b></li>
+                  <li><b>Créditos Eletivos: 16 (240 horas)</b></li>
+                  <li><b>Créditos Complementares: 9 (135 horas)</b></li>
+                  <li><b>Estágio em Arquivologia I: 10 créditos convertidos (150 horas)</b></li>
+                  <li><b>Estágio em Arquivologia II: 10 créditos convertidos (150 horas)</b></li>
+                  <li><b>Introdução ao Trabalho de Conclusão de Curso: 2 créditos convertidos (30 horas)</b></li>
+                  <li><b>Trabalho de Conclusão de Curso: 10 créditos (150 horas)</b></li>
+                  <li><b>Total de créditos para diplomação: 170</b></li>
+                  <li><b>Carga horária total do curso: 2550 horas-aula</b></li>
+                  <li><b>Conclusão aconselhada: 8 semestres</b></li>
+                </ul>
+                <p><a href="http://www1.ufrgs.br/graduacao/xInformacoesAcademicas/curriculo.php?CodCurso=301&CodHabilitacao=33&CodCurriculo=77" target="_blank">Currículo e Súmulas das Disciplinas</a></p>
+              </div>
+            </div>            
+          </div>
+        </div>
+        <div class="row" id="projeto-pedagogico-arquivologia">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>Projeto Pedagógico</h3>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <p class="text-justify">
+                  O Projeto Pedagógico do Curso de Arquivologia foi atualizado em 2014 pela comissão formada pelos professores Jorge Eduardo Enríquez Vivar, Moisés Rockembach, Rafael Port da Rocha, Rodrigo Silva Caxias de Sousa,Valéria Raquel Bertotti e pelos técnicos em assuntos educacionais Anamaria Teixeira da Rosa, Cláudia Pereira Antunes, Joseane Lima, Ludmila Oliveira, juntamente ao representante discente do curso Francisco Alcides Cougo Junior.
+                </p>
+                <p><a href="<?php bloginfo("template_directory"); ?>/docs/PPCARQUIVOLOGIA-2014.pdf" target="_blank">Projeto Pedagógico do Curso de Arquivologia 2014</a></p>
+                <p><a href="<?php bloginfo("template_directory"); ?>/docs/PPCARQUIVOLOGIA-2017.pdf">Projeto Pedagógico do Curso de Arquivologia 2017 - atualização</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="nucleo-docente-arquivologia">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <h3>Núcleo Docente Estruturante</h3>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-12">
+                <h4>Moisés Rockembach</h4>
+                <h4>Thiago Henrique Bragato Barros</h4>
+                <h4>Leolíbia Luana Linden</h4>
+                <h4>Valéria Raquel Bertotti</h4>
+                <h4>Rita de Cássia Portela da Silva</h4>
+              </div>
+            </div>
+            <p><a href="<?php bloginfo("template_directory"); ?>/docs/RegimentoNDEArquivologia.doc">Regimento do Núcleo Docente Estruturante do Curso de Arquivologia</a></p>
+          </div>
         </div>
       </div>
-      <div id="biblioteconomia" class="row">
+      <div id="biblioteconomia">
         <div class="col-12">
           <div class="row">
             <div class="col-12">
@@ -570,7 +602,7 @@
           </div>            
         </div>
       </div>
-      <div id="jornalismo" class="row">
+      <div id="jornalismo">
         <div class="col-12">
           <div class="row">
             <div class="col-12">
@@ -735,7 +767,7 @@
           </div>
         </div>
       </div>
-      <div id="museologia" class="row">
+      <div id="museologia">
         <div class="col-12">
           <div class="row">
             <div class="col-12">
@@ -972,7 +1004,7 @@
 
         </div>
       </div>
-      <div id="publicidade" class="row">
+      <div id="publicidade">
         <div class="col-12">
           <div class="row">
             <div class="col-12">
@@ -1122,7 +1154,7 @@
 
         </div>
       </div>
-      <div id="relacoes-publicas" class="row">
+      <div id="relacoes-publicas">
         <div class="col-12">
           <div class="row">
             <div class="col-12">
