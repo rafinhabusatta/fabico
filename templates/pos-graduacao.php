@@ -1,4 +1,4 @@
-<!-- Template name: Pos-Graduacao -->
+f<!-- Template name: Pos-Graduacao -->
 <?php get_header(); ?>
 <div class="container-fluid">
   <div class="row bg-header">
@@ -18,9 +18,20 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-12">
-      <div class="row ppgcom bloco-container">
-        <div class="col-12">
+    <div class="col-lg-3 d-none d-lg-block mt-5">
+      <nav class="side-menu">
+        <ul class="side-menu-ul">
+          <li class="menu-item"><a href="#ppgcom">PPGCOM</a></li>
+          <li class="menu-item"><a href="#publicacoes">Publicações</a></li>
+          <li class="menu-item"><a href="#bancas-defesa">Bancas de defesa do PPGCOM</a></li>
+          <li class="menu-item"><a href="#ppgmuspa">PPGMUSPA</a></li>
+          <li class="menu-item"><a href="#ppgcin">PPGCIN</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-12 col-lg-9">
+      <div id="ppgcom" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2>PPGCOM</h2>
@@ -41,8 +52,8 @@
           </div>
         </div>
       </div>
-      <div class="row publicacoes-pos bloco-container">
-        <div class="col-12">
+      <div id="publicacoes" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2>Publicações</h2>
@@ -67,8 +78,8 @@
           </div>
         </div>
       </div>
-      <div class="row ppgmuspa bloco-container">
-        <div class="col-12">
+      <div id="ppgmuspa" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2>PPGMUSPA</h2>
@@ -113,8 +124,8 @@
           </div>
         </div>
       </div>
-      <div class="row ppgcin bloco-container">
-        <div class="col-12">
+      <div id="ppgcin" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2>PPGCIN - Contato</h2>
