@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-lg-3 d-none d-lg-block">
+    <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
         <ul class="side-menu-ul">
           <li><a href="#comex">Comex</a></li>
