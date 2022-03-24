@@ -23,15 +23,15 @@
   <div class="row mx-0 mt-3">
     <div class="col-lg-3 d-none d-lg-block">
       <nav class="side-menu">
-        <ul>
+        <ul class="side-menu-ul">
           <li><a href="#comex">Comex</a></li>
           <li><a href="#normas">Normas e Orientações</a></li>
         </ul>
       </nav>
     </div>
     <div class="col-12 col-lg-9 bloco-container-col-9">
-      <div id="comex" class="row">
-        <div class="col-12">
+      <div id="comex" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2 class="title">Comex</h2>
@@ -81,8 +81,8 @@
           </div>
         </div>
       </div>
-      <div id="normas" class="row">
-        <div class="col-12">
+      <div id="normas" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2 class="title">Normas e Orientações</h2>
