@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="row mx-0 mt-3">
-    <div class="col-lg-3 d-none d-lg-block">
+    <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
         <ul class="side-menu-ul">
           <li class="menu-item"><a href="#compesq">Compesq</a></li>
@@ -30,7 +30,7 @@
         </ul>
       </nav>
     </div>
-    <div class="col-12 col-lg-9 bloco-container-col-9">
+    <div class="col-12 col-lg-9">
       <div id="compesq" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
