@@ -36,11 +36,11 @@ ul {
   scroll-margin-top: 110px;
 }
 
-.menu-item {
+.side-menu-ul .menu-item {
   margin-bottom: 16px;
 }
 
-.menu-item a:hover {
+.side-menu-ul .menu-item a:hover {
   margin-left: 5px;
   transition: margin-left 0.5s;
 }

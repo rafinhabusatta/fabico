@@ -23,16 +23,16 @@
   <div class="row mx-0 mt-3">
     <div class="col-lg-3 d-none d-lg-block">
       <nav class="side-menu">
-        <ul>
-          <li><a href="#compesq">Compesq</a></li>
-          <li><a href="#ppgcom">Linhas do PPGCOM</a></li>
-          <li><a href="#normas">Normas e Orientações</a></li>
+        <ul class="side-menu-ul">
+          <li class="menu-item"><a href="#compesq">Compesq</a></li>
+          <li class="menu-item"><a href="#ppgcom">Linhas do PPGCOM</a></li>
+          <li class="menu-item"><a href="#normas">Normas e Orientações</a></li>
         </ul>
       </nav>
     </div>
     <div class="col-12 col-lg-9 bloco-container-col-9">
-      <div id="compesq" class="row">
-        <div class="col-12">
+      <div id="compesq" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2 class="title">Compesq</h2>
@@ -49,8 +49,8 @@
           </div>
         </div>
       </div>
-      <div id="ppgcom" class="row mt-5">
-        <div class="col-12">
+      <div id="ppgcom" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2 class="title">Linhas do PPGCOM</h2>
@@ -79,8 +79,8 @@
           </div>
         </div>
       </div>
-      <div id="normas" class="row mt-5">
-        <div class="col-12">
+      <div id="normas" class="row bloco-container">
+        <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
               <h2 class="title">Normas e Orientações</h2>
