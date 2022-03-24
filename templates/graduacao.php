@@ -42,7 +42,7 @@
       </nav>
     </div>
     <div class="col-12 col-lg-9">
-      <div id="arquivologia" clss="row"> 
+      <div id="arquivologia" clss="row bloco-container"> 
         <div class="col-12">
           <div class="row bloco-container mb-3">
             <div class="col-12 col-lg-10">
@@ -244,7 +244,7 @@
           </div>
         </div>  
       </div>
-      <div id="biblioteconomia" class="row">
+      <div id="biblioteconomia" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
@@ -604,7 +604,7 @@
           </div>            
         </div>
       </div>
-      <div id="jornalismo" class="row">
+      <div id="jornalismo" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
@@ -769,7 +769,7 @@
           </div>
         </div>
       </div>
-      <div id="museologia" class="row">
+      <div id="museologia" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
@@ -1006,7 +1006,7 @@
 
         </div>
       </div>
-      <div id="publicidade" class="row">
+      <div id="publicidade" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
@@ -1156,7 +1156,7 @@
 
         </div>
       </div>
-      <div id="relacoes-publicas" class="row">
+      <div id="relacoes-publicas" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
             <div class="col-12">
