@@ -29,7 +29,7 @@
         </ul>
       </nav>
     </div>
-    <div class="col-12 col-lg-9 bloco-container-col-9">
+    <div class="col-12 col-lg-9">
       <div id="comex" class="row bloco-container">
         <div class="col-12 col-lg-10">
           <div class="row">
