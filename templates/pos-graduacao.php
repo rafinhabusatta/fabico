@@ -1,4 +1,4 @@
-f<!-- Template name: Pos-Graduacao -->
+<!-- Template name: Pos-Graduacao -->
 <?php get_header(); ?>
 <div class="container-fluid">
   <div class="row bg-header">
