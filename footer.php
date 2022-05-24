@@ -23,8 +23,8 @@
 			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
 				<ul>
-					<li>Telefone:<a href="tel:5133085067">(51) 3308.5067</a></li>
-					<li>Email: <a href="mailto:fabico@ufrgs.br">fabico@ufrgs.br</a></li>
+					<li><span>Telefone:</span> <a href="tel:5133085067">(51) 3308.5067</a></li>
+					<li><span>Email:</span> <a href="mailto:fabico@ufrgs.br">fabico@ufrgs.br</a></li>
 				</ul>	
 			</div>
 		</div>
@@ -46,7 +46,7 @@
 	<div class="container-fluid">
 		<div class="row py-3 footer-5">
 			<div class="col-12 text-center font-weight-bold">
-				Fabico - UFRGS
+				<span>Fabico - UFRGS</span>
 			</div>
 		</div>
 	</div>

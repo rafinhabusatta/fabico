@@ -1,9 +1,9 @@
 .footer {
-  background: #fdb515;
+  background: #001E50;
 }
 
-.footer a {
-  color: #424242;
+.footer a, .footer span {
+  color: #fff;
 }
 
 .footer ul {
