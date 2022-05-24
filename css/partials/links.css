@@ -5,6 +5,14 @@ a:visited {
   color: #fff;
   text-decoration: none;
 }
+
+.btn-fabico {
+  border: 1px solid #f08232;
+  background-color: #f08232;
+  border-radius: 8px;
+  height: 50px;
+  width: 185px;
+}
 /* 
 .navbar-light .navbar-nav .dropdown-item,
 .navbar-light .navbar-nav .active > .nav-link,
