@@ -2,7 +2,7 @@
 .navbar-light .navbar-nav .nav-link,
 a:link,
 a:visited {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 /* 
@@ -19,7 +19,7 @@ a:visited {
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .dropdown-item:hover,
   .btn-leia:hover {
-    color: #424242;
+    color: #aaa;
     background: none;
   }
 }

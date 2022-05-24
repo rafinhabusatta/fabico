@@ -29,7 +29,10 @@
 		<!-- Favicons -->
 		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/fabico.png" >
 
-		<title><?php wp_title();?></title>
+		<title>	
+		<?php //is_front_page() ? bloginfo('name') : wp_title() bloginfo('name');  ?>
+			<?php wp_title(); ?>
+		</title>
 
 		<?php wp_head(); ?>
 	</head>
@@ -37,8 +40,11 @@
 		<header id="masthead" class="sticky-top">
 			<nav class="navbar navbar-expand-lg navbar-light bg-fabico">
 				<a href="<?php echo site_url(); ?>" class="navbar-brand">
-					<img src="<?php bloginfo("template_directory"); ?>/assets/fabico.png" alt="Faculdade de Biblioteconomia e Comunicação da Universidade Federal do Rio Grande do Sul">
+					<img src="<?php bloginfo("template_directory"); ?>/assets/fabico.svg" alt="Faculdade de Biblioteconomia e Comunicação da Universidade Federal do Rio Grande do Sul" width="359">
 				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 				<?php
 					if ( function_exists( 'the_custom_logo' ) ) {
 						the_custom_logo();
