@@ -15,7 +15,7 @@
 //   },
 //   false
 // )
-var header = document.querySelector('.side-menu-ul')
+/*var header = document.querySelector('.side-menu-ul')
 var lis = header.getElementsByClassName('menu-item')
 for (var i = 0; i < lis.length; i++) {
   lis[i].addEventListener('click', function () {
@@ -25,4 +25,4 @@ for (var i = 0; i < lis.length; i++) {
     }
     this.className += ' active'
   })
-}
+}*/

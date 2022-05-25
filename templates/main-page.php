@@ -6,9 +6,9 @@
             <!-- <img src="<?php bloginfo("template_directory"); ?>/assets/banner.jpg" alt="Imagem da fachada da Fabico" width="100%">   -->
         </div>
     </div>
-    <div class="row mx-0 mt-3">
+    <div class="row mx-0">
         <div class="col-12 px-0">
-            <div class="row bg-slider mt-5">
+            <div class="row bg-slider">
                 <div class="col-12">
                     <div id="carouselHome" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
@@ -45,20 +45,20 @@
             </div> -->
             <div class="row grid-container mt-3"> 
                 <div class="col-12 px-md-0 mt-3">
-                    <div class="post">
-                        <h2>Acontece na Fabico</h2>
+                    <div class="card-home">
+                        <h2 class="text-center">Acontece na Fabico</h2>
                         <a href="#" class="btn-fabico">Acessar</a>
                     </div>
                 </div>
                 <div class="col-12 px-md-0 mt-3">
-                    <div class="post">
-                        <h2>Destaques Acadêmicos</h2>
+                    <div class="card-home">
+                        <h2 class="text-center">Destaques Acadêmicos</h2>
                         <a href="#" class="btn-fabico">Acessar</a>
                     </div>
                 </div>
                 <div class="col-12 px-md-0 mt-3">
-                    <div class="post">
-                        <h2>+Notícias</h2>
+                    <div class="card-home">
+                        <h2 class="text-center">+Notícias</h2>
                         <a href="#" class="btn-fabico">Acessar</a>
                     </div>
                 </div>   

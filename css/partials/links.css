@@ -7,11 +7,14 @@ a:visited {
 }
 
 .btn-fabico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #f08232;
   background-color: #f08232;
-  border-radius: 8px;
-  height: 50px;
-  width: 185px;
+  border-radius: 12px;
+  height: 30px;
+  width: 110px;
 }
 /* 
 .navbar-light .navbar-nav .dropdown-item,
