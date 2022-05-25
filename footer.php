@@ -29,20 +29,40 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="container-fluid footer-logos mt-5">
+	<div class="container-fluid footer-logos mt-5">
 		<div class="footer-4">
 			<div class="row py-5 footer-logo-width">
 				<div class="col-4 col-lg align-self-center text-center">
-					<a href="<?php //echo site_url(); ?>"><img class="d-lg-none" src="<?php //bloginfo("template_directory"); ?>/assets/" alt="Logo aqui">
-					<img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/" alt="Logo aqui"></a>
+					<a href="<?php echo site_url(); ?>"><img  src="<?php bloginfo("template_directory"); ?>/assets/manual_aluno.svg" alt="Manual do aluno">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/fabico.svg" alt="Logotipo Fabico"></a> -->
 				</div>
 				<div class="col-4 col-lg align-self-center text-center">
-					<a href="http://www.ufrgs.br" target="_blank"><img class="d-lg-none" src="<?php //bloginfo("template_directory"); ?>/assets/" alt="Logo aqui">
-					<img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a>
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/calendario.svg" alt="Calendário acadêmico">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
+				</div>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/prod_alunos.svg" alt="Produção dos alunos">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
+				</div>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/doc_unidades.svg" alt="Documentos da unidade">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
+				</div>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/comgrads.svg" alt="Comgrads">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
+				</div>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/servicos.svg" alt="Serviços">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
+				</div>
+				<div class="col-4 col-lg align-self-center text-center">
+					<a href="#" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/calendario.svg" alt="Biblioteca da Fabico">
+					<!-- <img class="d-none d-lg-block" src="<?php //bloginfo("template_directory"); ?>/assets/ufrgs-logo.svg" alt="Universidade Federal do Rio Grande do Sul"></a> -->
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<div class="container-fluid">
 		<div class="row py-3 footer-5">
 			<div class="col-12 text-center font-weight-bold">
