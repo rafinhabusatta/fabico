@@ -15,7 +15,7 @@
 					<li><a href="<?php echo site_url(); ?>/">A Fabico</a></li>
 					<li><a href="<?php echo site_url(); ?>/">Graduação</a></li>
 					<li><a href="<?php echo site_url(); ?>/">Pós-Graduação</a></li>
-					<li><a href="<?php echo site_url(); ?>/">Disciplinas Integradoras</a></li>
+					<li><a href="<?php echo site_url(); ?>/">Pesquisa</a></li>
 				</ul>
 			</div>
 		</div>
