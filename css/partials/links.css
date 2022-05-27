@@ -6,6 +6,10 @@ a:visited {
   text-decoration: none;
 }
 
+.dropdown-menu a.dropwdown-item {
+  color: #001E50;
+}
+
 .btn-fabico {
   display: flex;
   justify-content: center;
