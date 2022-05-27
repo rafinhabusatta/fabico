@@ -88,15 +88,14 @@
   /* FOOTER */
   .grid-footer {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     max-width: 1000px;
     justify-content: space-evenly;
   }
 
-  .footer-1,
-  .footer-4,
-  .footer-5 {
-    grid-column: 1 / span 2;
+  .footer-1
+  {
+    grid-column: 1 / span 3;
   }
 
   .footer-logo-width {
