@@ -57,47 +57,47 @@
 						<img src="<?php bloginfo("template_directory"); ?>/assets/prod_alunos.svg" alt="Produção dos alunos">
 					</a>
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center  logo-sm">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/doc_unidades.svg" alt="Documentos da unidade">
 					</a>
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/comgrads.svg" alt="Comgrads">
 					</a>
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/servicos.svg" alt="Serviços">
 					</a>
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/biblioteca.svg" alt="Biblioteca da Fabico">
 					</a> 
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/ppgcom.svg" alt="Programa de Pós-Graduação em Comunicação - PPGCOM">
 					</a> 
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/intexto.svg" alt="inTexto">
 					</a> 
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/em-questao.svg" alt="Em Questão">
 					</a> 
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/concursos.svg" alt="Concursos - Processos Seletivos">
 					</a> 
 				</div>
-				<div class="col-4 col-lg align-self-center text-center">
+				<div class="col-4 col-lg align-self-center text-center logo">
 					<a href="#" target="_blank">
 						<img src="<?php bloginfo("template_directory"); ?>/assets/memoria-fabico.svg" alt="Memória Fabico">
 					</a> 
