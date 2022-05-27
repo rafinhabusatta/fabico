@@ -9,6 +9,14 @@ a:visited {
 .dropdown-menu a.dropwdown-item {
   color: #001E50;
 }
+.side-menu a:link, .side-menu a:visited {
+  color: #424242;
+}
+
+.active>.side-menu, .title {
+  border-left: 5px solid #f08232;
+  padding-left: 15px;
+}
 
 .btn-fabico {
   display: flex;
@@ -16,9 +24,9 @@ a:visited {
   align-items: center;
   border: 1px solid #f08232;
   background-color: #f08232;
-  border-radius: 12px;
-  height: 30px;
-  width: 110px;
+  border-radius: 8px;
+  height: 35px;
+  width: 120px;
 }
 /* 
 .navbar-light .navbar-nav .dropdown-item,
