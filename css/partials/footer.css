@@ -16,6 +16,10 @@
   font-size: 18px;
 }
 
+.logo {
+  padding-top: 15px;
+}
+
 .footer-1 img {
   max-width: 38px;
 }
@@ -72,6 +76,10 @@
 
   .footer-5 {
     order: 5;
+  }
+
+  .logo-sm {
+    padding-top: 15px;
   }
 }
 
