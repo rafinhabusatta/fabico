@@ -18,4 +18,8 @@
   nav li.nav-item {
     font-size: 18px;
   }
+
+  .color-drop-menu {
+    color: #001E50;
+  }
 }
