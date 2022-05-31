@@ -82,7 +82,9 @@
             <p class="text-justify">
               O Programa de Pós-Graduação em Comunicação e Informação - PPGCOM é aprovado e implantado em 1996, em nível de Mestrado, sendo ampliado em 2000 com a implantação do Doutorado.
             </p>
-            <p class="text-justify">Na área de Ciências da Informação são criados o curso de graduação em Arquivologia, no ano de 1999, e o curso de Museologia, em 2008.</p>
+            <p class="text-justify">
+              Na área de Ciências da Informação são criados o curso de graduação em Arquivologia, no ano de 1999, e o curso de Museologia, em 2008.
+            </p>
             <p class="text-justify">
               Desde 2006, com a transferência da Gráfica da Universidade para Rua Ramiro Barcelos, 2500, a FABICO passou a ocupar todo o prédio e parte do Anexo 1 do Campus Saúde. Abriga 1.532 alunos, 71 professores, 40 técnico-administrativos e equipe terceirizada.
             </p>
@@ -93,17 +95,66 @@
         </div>
         <div class="row bloco-container">
           <div class="col-12 col-lg-10" id="memorias">
-            <h3>Memórias da Fabico</h3>
-            <div class="box-sombra mt-3 p-5">
-              <a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Livro Digital - 40 anos</a>
-              <p class="text-justify">Num processo complexo, dinâmico e inusitado, a FABICO completa 40 anos. Muitas histórias e estórias fazem parte dessa trajetória. E para que suas memórias não caiam no esquecimento, se inicia o registro das lembranças dos alunos, professores e técnico-administrativos que dela fizeram ou fazem parte.</p>
-              <p class="text-justify">Este espaço está aberto para todos aqueles que quiserem enviar sua colaboração. Alegres, tristes, divertidas, importantes ou fortuitas, tanto faz! Todas as colaborações são importantes, porque representam recortes desse caminho. Faça parte dessa história!</p>
+            <div class="row box-sombra mt-3 p-5">
+              <div class="col-12 col-lg-6">
+                <h3><a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Memórias da Fabico</a></h3>
+                <h4><a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Livro Digital - 40 anos</a></h4>
+                <p class="text-justify">Num processo complexo, dinâmico e inusitado, a FABICO completa 40 anos. Muitas histórias e estórias fazem parte dessa trajetória. E para que suas memórias não caiam no esquecimento, se inicia o registro das lembranças dos alunos, professores e técnico-administrativos que dela fizeram ou fazem parte.</p>
+                <p class="text-justify">Este espaço está aberto para todos aqueles que quiserem enviar sua colaboração. Alegres, tristes, divertidas, importantes ou fortuitas, tanto faz! Todas as colaborações são importantes, porque representam recortes desse caminho. Faça parte dessa história!</p>
+              </div>
+              <div class="col-12 col-lg-6 d-flex flex-column align-items-center justify-content-around">
+                <img src="<?php bloginfo("template_directory"); ?>/assets/livro-digital.jpg" alt="Livro Digital Memórias Fabico 40 anos">
+                <a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" class="btn-fabico" target="_blank">Acessar</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="row mt-5 bloco-container">
           <div class="col-12 col-lg-10" id="galeria">
             <h3>Galeria de Ex-Diretores</h3>
+            <div class="row corousel-inner">
+              <div class="col-12">
+                
+              </div>
+            </div>
+            <div id="carousel-galeria" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active col-lg-6">
+                    <h4>Karla Maria Müller - 2016-2020</h4>   
+                  </div>
+                  <div class="carousel-item col-lg-6">
+                    <h4>Ana Maria Mielniczuk de Moura - 2012-2016</h4>
+                  </div>
+                  <!-- <div class="carousel-item carousel-item-style">
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <h4>Regina Helena Van Der Laan - 2012 (outubro a dezembro)</h4>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <h4>Ricardo Schneiders da Silva - 2008-2012; 1996-2000</h4>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- <div class="carousel-item carousel-item-style">
+                    <div class="row">
+                      <div class="col-12 col-lg-6">
+                        <h4>Regina Helena Van Der Laan - 2012 (outubro a dezembro)</h4>
+                      </div>
+                      <div class="col-12 col-lg-6">
+                        <h4>Ricardo Schneiders da Silva - 2008-2012; 1996-2000</h4>
+                      </div>
+                    </div>
+                  </div> -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-target="#carouselHome" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-target="#carouselHome" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+              </button>
+            </div>
             <div class="container-ex-diretor mt-3">
               <h4>Karla Maria Müller - 2016-2020</h4>
               <p class="text-justify">Possui doutorado em Ciências da Comunicação, pela Universidade do Vale do Rio dos Sinos (2003); mestrado em Comunicação, pela Pontifícia Universidade Católica do Rio Grande do Sul (1997); especialista em Educação de Adultos pela FAAPA (1987); graduação em Comunicação Social - Jornalismo e Editoração Gráfica, pela Universidade Federal do Rio Grande do Sul (1986); graduação em Comunicação Social - Relações Públicas, Publicidade e Propaganda, pela Universidade Federal do Rio Grande do Sul (1982).Tem experiência na área de Comunicação, atuando principalmente nos seguintes temas: comunicação fronteiriça, comunicação e cultura, mídia e fronteiras, comunicação e cultura organizacional e comunicação pública, comunicação e práticas socioculturais. Assessora Ad Hoc da Capes e do CNPq, faz parte de conselhos editoriais e grupos de pesquisa. Professora Titular, Convidada no Programa de Pós-Graduação em Comunicação (PPGCOM/UFRGS).</p>
@@ -340,7 +391,7 @@
       <div id="gerencia">
         <div class="row bloco-container">
           <div class="col-12 col-lg-10">
-          <h2>Gerência Administrativa</h2>
+          <h2 class="title">Gerência Administrativa</h2>
           <p class="text-justify">
             Abrange atividades administrativas e acadêmicas ligadas aos Departamentos, às Comissões de Graduação, Extensão e Pesquisa, agrupadas em setores.
           </p>
@@ -517,7 +568,7 @@
       <div id="biblioteca">
         <div class="row bloco-container">
           <div class="col-12 col-lg-10">
-            <h2>Biblioteca Fabico</h2>
+            <h2 class="title">Biblioteca Fabico</h2>
             <p class="text-justify"><a href="https://www.ufrgs.br/bibfbc/">Clique aqui</a> para acessar o site da biblioteca da FABICO.</p>
           </div>
         </div>
