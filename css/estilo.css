@@ -82,11 +82,34 @@ ul {
   color: #fff;
 }
 
+.styled-next-icon {
+  background-image: url("../assets/next.svg");
+}
+
+.styled-prev-icon,
+.styled-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#carousel-galeria .carousel-inner {
+  width: 800px;
+  margin: auto;
+}
+
+.carousel-item-height {
+  height: 150px;
+}
+
 /* BOX SHADOWS */
 .box-sombra {
   box-shadow: 0px 0px 10px 0px rgba(82, 82, 82, 0.5);
   background-color: #eee;
   border-radius: 12px;
+}
+
+.styled-prev-icon {
+  background-image: url("../assets/prev.svg");
 }
 
 /* .specialBorder {

@@ -14,12 +14,16 @@
   height: 75px;
 }
 
+.color-drop-menu {
+  color: #001E50;
+}
+
+.text-color-link {
+  color: #001E50;
+}
+
 @media (min-width: 992px) {
   nav li.nav-item {
     font-size: 18px;
-  }
-
-  .color-drop-menu {
-    color: #001E50;
   }
 }

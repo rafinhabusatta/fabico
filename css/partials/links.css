@@ -1,9 +1,12 @@
 /* LINKS GERAIS */
-.navbar-light .navbar-nav .nav-link,
-a:link,
-a:visited {
+.navbar-light .navbar-nav .nav-link {
   color: #fff;
   text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #001E50;
 }
 
 .dropdown-menu a.dropwdown-item {
