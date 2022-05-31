@@ -39,7 +39,8 @@
 }
 
 .footer-2 li,
-.footer-3 li {
+.footer-3 li,
+.footer-6 li {
   margin: 14px 0;
 }
 
@@ -76,6 +77,10 @@
 
   .footer-5 {
     order: 5;
+  }
+
+  .footer-6 {
+    order: 2;
   }
 
   .logo-sm {
