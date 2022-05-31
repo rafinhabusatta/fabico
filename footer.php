@@ -1,6 +1,6 @@
 <footer class="footer mt-5">
 	<div class="container-fluid grid-footer px-lg-5">
-		<div class="row py-5 footer-1">
+		<div class="row py-3 py-lg-5 footer-1">
 			<div class="col-12 text-center">
 				<a href="https://pt-br.facebook.com/ufrgsfabico/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/facebook.svg" alt="Facebook"></a>
 				<a href="https://www.instagram.com/fabicoufrgs/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/instagram.svg" alt="Instagram"></a>
@@ -21,21 +21,21 @@
 		</div>
 		<div class="row pt-3 pt-lg-0 footer-3">
 			<div class="col-12">			
-				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
-				<ul>
-					<li><span>Telefone:</span> <a href="tel:5133085067">(51) 3308.5067</a></li>
-					<li><span>Email:</span> <a href="mailto:fabico@ufrgs.br">fabico@ufrgs.br</a></li>
-				</ul>	
-			</div>
-		</div>
-		<div class="row pt-3 pt-lg-0 footer-6">
-			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Mais</h2></a>
 				<ul>
 					<li><a href="<?php echo site_url(); ?>/aluno">Aluno</a></li>
 					<li><a href="<?php echo site_url(); ?>/nucleos-e-laboratorios">Núcleos e Laboratórios</a></li>
 					<li><a href="<?php echo site_url(); ?>/atos-normativos">Atos Normativos</a></li>
 				</ul>	
+			</div>
+		</div>
+		<div class="row pt-3 pt-lg-0 footer-6">
+			<div class="col-12">			
+				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
+				<ul>
+					<li><span>Telefone:</span> <a href="tel:5133085067">(51) 3308.5067</a></li>
+					<li><span>Email:</span> <a href="mailto:fabico@ufrgs.br">sitefabico@ufrgs.br</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
