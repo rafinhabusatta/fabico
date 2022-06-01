@@ -74,8 +74,10 @@
                     <div class="col-12" id="memorias">
                         <div class="row box-sombra mt-3 p-5">
                             <div class="col-12 col-lg-6">
-                                <h3><a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Memórias da Fabico</a></h3>
-                                <h4><a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">Livro Digital - 40 anos</a></h4>
+                                <a href="<?php bloginfo("template_directory"); ?>/docs/memorias-digitais.pdf" target="_blank">
+                                    <h3>Memórias da Fabico</h3>
+                                    <h4>Livro Digital - 40 anos</h4>
+                                </a>
                                 <p class="text-justify">Num processo complexo, dinâmico e inusitado, a FABICO completa 40 anos. Muitas histórias e estórias fazem parte dessa trajetória. E para que suas memórias não caiam no esquecimento, se inicia o registro das lembranças dos alunos, professores e técnico-administrativos que dela fizeram ou fazem parte.</p>
                                 <p class="text-justify">Este espaço está aberto para todos aqueles que quiserem enviar sua colaboração. Alegres, tristes, divertidas, importantes ou fortuitas, tanto faz! Todas as colaborações são importantes, porque representam recortes desse caminho. Faça parte dessa história!</p>
                             </div>
@@ -89,85 +91,94 @@
                 <div class="row mt-5 bloco-container">
                     <div class="col-12" id="galeria">
                         <h3>Galeria de Ex-Diretores</h3>
-                        <div class="row corousel-inner">
-                            <div class="col-12">
-                                
-                            </div>
-                        </div>
-                        <div id="carousel-galeria" class="carousel slide" data-ride="carousel">
+                        <div id="carousel-galeria" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Karla Maria Müller</h4>
-                                            <p>(2016-2020)</p>
+                                    <div class="row">
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Karla Maria Müller</h4>
+                                            <p class="galeria-year mb-0">(2016-2020)</p>
+                                            <button class="down-button" type="button" data-target="#card-1" data-slide="prev" onclick="expandCard(1)">
+                                                <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Expandir</span>
+                                            </button>
+                                            <p class="text-justify d-none" id="card-1">
+                                                Possui doutorado em Ciências da Comunicação, pela Universidade do Vale do Rio dos Sinos (2003); mestrado em Comunicação, pela Pontifícia Universidade Católica do Rio Grande do Sul (1997); especialista em Educação de Adultos pela FAAPA (1987); graduação em Comunicação Social - Jornalismo e Editoração Gráfica, pela Universidade Federal do Rio Grande do Sul (1986); graduação em Comunicação Social - Relações Públicas, Publicidade e Propaganda, pela Universidade Federal do Rio Grande do Sul (1982).Tem experiência na área de Comunicação, atuando principalmente nos seguintes temas: comunicação fronteiriça, comunicação e cultura, mídia e fronteiras, comunicação e cultura organizacional e comunicação pública, comunicação e práticas socioculturais. Assessora Ad Hoc da Capes e do CNPq, faz parte de conselhos editoriais e grupos de pesquisa. Professora Titular, Convidada no Programa de Pós-Graduação em Comunicação (PPGCOM/UFRGS).
+                                            </p>
                                         </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Ana Maria Mielniczuk de Moura</h4>
-                                            <p>(2012-2016)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- <div class="carousel-item">
-                                    <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Regina Helena Van Der Laan </h4>
-                                            <p>(2012 - outubro a dezembro)</p>
-                                        </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Ricardo Schneiders da Silva </h4>
-                                            <p>(2008-2012; 1996-2000)</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Valdir José Morigi</h4>
-                                            <p>(2004-2008)</p>
-                                        </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Márcia Benetti Machado</h4>
-                                            <p>(2000-2004)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Ana Maria Mielniczuk de Moura</h4>
+                                            <p class="galeria-year mb-0">(2012-2016)</p>
+                                            <button class="down-button" type="button" data-target="#card-1" data-slide="prev" onclick="expandCard(2)">
+                                                <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Expandir</span>
+                                            </button>
+                                            <p class="text-justify d-none" id="card-2">
+                                                Possui graduação em Biblioteconomia pela Universidade Federal do Rio Grande do Sul – UFRGS (1992), Especialização em Informática na Educação pelo PGIE/UFRGS em 2001, mestrado em Comunicação e Informação pelo PPGCOM/UFRGS em 2001 e doutorado em Comunicação e Informação pelo PPGCOM/UFRGS em 2009. Atualmente é professora associada no Departamento de Ciências da Informação da Faculdade de Biblioteconomia e Comunicação da Universidade Federal do Rio Grande do Sul e professora permanente no Programa de Pós Graduação em Ciência da Informação (PPGCIN/UFRGS).
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Ana Maria Dalla Zen</h4>
-                                            <p>(1992-1996)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Regina Helena Van Der Laan </h4>
+                                            <p class="galeria-year mb-0">(2012 - outubro a dezembro)</p>
                                         </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Blásio Hugo Hickmann</h4>
-                                            <p>(1988-1992)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Ricardo Schneiders da Silva </h4>
+                                            <p class="galeria-year mb-0">(2008-2012; 1996-2000)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row carousel-item-height">
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Valdir José Morigi</h4>
+                                            <p class="galeria-year mb-0">(2004-2008)</p>
+                                        </div>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Márcia Benetti Machado</h4>
+                                            <p class="galeria-year mb-0">(2000-2004)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row carousel-item-height">
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Ana Maria Dalla Zen</h4>
+                                            <p class="galeria-year mb-0">(1992-1996)</p>
+                                        </div>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Blásio Hugo Hickmann</h4>
+                                            <p class="galeria-year mb-0">(1988-1992)</p>
                                         </div>
                                     </div>
                                 </div> 
                                 <div class="carousel-item">
                                     <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Lourdes Gregol Fagundes da Silva</h4>
-                                            <p>(1984-1988)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Lourdes Gregol Fagundes da Silva</h4>
+                                            <p class="galeria-year mb-0">(1984-1988)</p>
                                         </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Lilia Maria Vargas</h4>
-                                            <p>(1980-1984)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Lilia Maria Vargas</h4>
+                                            <p class="galeria-year mb-0">(1980-1984)</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row carousel-item-height">
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Fernando José Pinto Guerreiro</h4>
-                                            <p>(1976-1980)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Fernando José Pinto Guerreiro</h4>
+                                            <p class="galeria-year mb-0">(1976-1980)</p>
                                         </div>
-                                        <div class="col-lg mx-3 box-sombra">
-                                            <h4>Zenaira Garcia Marques</h4>
-                                            <p>(1970-1976)</p>
+                                        <div class="col-lg mx-3 galeria-card">
+                                            <h4 class="galeria-title mb-0">Zenaira Garcia Marques</h4>
+                                            <p class="galeria-year mb-0">(1970-1976)</p>
                                         </div>
                                     </div>
-                                </div>  -->
+                                </div> 
                             </div>
                             <button class="carousel-control-prev" type="button" data-target="#carousel-galeria" data-slide="prev">
                                 <span class="styled-prev-icon carousel-control-prev-icon" aria-hidden="true"></span>
