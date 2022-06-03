@@ -26,3 +26,28 @@ for (var i = 0; i < lis.length; i++) {
     this.className += ' active'
   })
 }
+
+function expandCard(dataTarget) {
+  let target = dataTarget
+  let text = document.getElementById(`card-${target}`)
+  let title = document.querySelector('.galeria-title')
+  let year = document.querySelector('.galeria-year')
+  let card = text.parentElement
+  let arrow = document.querySelector('.styled-down-icon')
+
+  if ((title.style.color = '#3F1055')) {
+    text.classList.add('d-block')
+    title.style.color = '#fff'
+    year.style.color = '#fff'
+    card.style.backgroundColor = '#F08232'
+    card.style.height = '100%'
+    arrow.style.transform = 'rotate(180deg)'
+  } else if ((arrow.style.transform = 'rotate(180deg)')) {
+    text.classList.remove('d-block')
+    title.style.color = '#3F1055'
+    year.style.color = '#404040'
+    card.style.backgroundColor = '#eee'
+    card.style.height = '150px'
+    arrow.style.transform = 'rotate(0deg)'
+  }
+}

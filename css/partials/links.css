@@ -1,8 +1,12 @@
 /* LINKS GERAIS */
-.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 a:link,
 a:visited {
-  color: #fff;
+  color: #001E50;
   text-decoration: none;
 }
 
@@ -27,6 +31,7 @@ a:visited {
   border-radius: 8px;
   height: 35px;
   width: 120px;
+  margin-top: 16px;
 }
 /* 
 .navbar-light .navbar-nav .dropdown-item,
@@ -40,9 +45,8 @@ a:visited {
 @media (min-width: 992px) {
   /* Links Hover */
   .navbar-light .navbar-nav .nav-link:hover,
-  .navbar-light .navbar-nav .dropdown-item:hover,
-  .btn-leia:hover {
-    color: #aaa;
+  .navbar-light .navbar-nav .dropdown-item:hover {
+    color: #f08232;
     background: none;
   }
 }
