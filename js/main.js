@@ -35,7 +35,7 @@ function expandCard(dataTarget) {
   let card = text.parentElement
   let arrow = document.querySelector('.styled-down-icon')
 
-  if ((arrow.style.transform = 'rotate(0deg)')) {
+  if ((title.style.color = '#3F1055')) {
     text.classList.add('d-block')
     title.style.color = '#fff'
     year.style.color = '#fff'

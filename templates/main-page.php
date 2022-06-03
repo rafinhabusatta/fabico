@@ -98,13 +98,26 @@
                                         <div class="col-lg mx-3 galeria-card">
                                             <h4 class="galeria-title mb-0">Karla Maria Müller</h4>
                                             <p class="galeria-year mb-0">(2016-2020)</p>
-                                            <button class="down-button" type="button" data-target="#card-1" data-slide="prev" onclick="expandCard(1)">
+                                            <!-- <button class="down-button" type="button" data-toggle="collapse" data-target="#card-1" onclick="expandCard(1)">
+                                                <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Expandir</span>
+                                            </button> -->
+                                            <button class="btn down-button" type="button" data-toggle="collapse" data-target="#card-1" aria-expanded="false" aria-controls="teste">
                                                 <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
                                                 <span class="sr-only">Expandir</span>
                                             </button>
-                                            <p class="text-justify d-none" id="card-1">
+                                            
+                                            <div class="collapse" id="card-1">
+                                                <div class="card card-body">
+                                                    <p class="text-justify">
+                                                        Possui doutorado em Ciências da Comunicação, pela Universidade do Vale do Rio dos Sinos (2003); mestrado em Comunicação, pela Pontifícia Universidade Católica do Rio Grande do Sul (1997); especialista em Educação de Adultos pela FAAPA (1987); graduação em Comunicação Social - Jornalismo e Editoração Gráfica, pela Universidade Federal do Rio Grande do Sul (1986); graduação em Comunicação Social - Relações Públicas, Publicidade e Propaganda, pela Universidade Federal do Rio Grande do Sul (1982).Tem experiência na área de Comunicação, atuando principalmente nos seguintes temas: comunicação fronteiriça, comunicação e cultura, mídia e fronteiras, comunicação e cultura organizacional e comunicação pública, comunicação e práticas socioculturais. Assessora Ad Hoc da Capes e do CNPq, faz parte de conselhos editoriais e grupos de pesquisa. Professora Titular, Convidada no Programa de Pós-Graduação em Comunicação (PPGCOM/UFRGS).
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <!-- <p class="text-justify d-none" id="card-1">
                                                 Possui doutorado em Ciências da Comunicação, pela Universidade do Vale do Rio dos Sinos (2003); mestrado em Comunicação, pela Pontifícia Universidade Católica do Rio Grande do Sul (1997); especialista em Educação de Adultos pela FAAPA (1987); graduação em Comunicação Social - Jornalismo e Editoração Gráfica, pela Universidade Federal do Rio Grande do Sul (1986); graduação em Comunicação Social - Relações Públicas, Publicidade e Propaganda, pela Universidade Federal do Rio Grande do Sul (1982).Tem experiência na área de Comunicação, atuando principalmente nos seguintes temas: comunicação fronteiriça, comunicação e cultura, mídia e fronteiras, comunicação e cultura organizacional e comunicação pública, comunicação e práticas socioculturais. Assessora Ad Hoc da Capes e do CNPq, faz parte de conselhos editoriais e grupos de pesquisa. Professora Titular, Convidada no Programa de Pós-Graduação em Comunicação (PPGCOM/UFRGS).
-                                            </p>
+                                            </p> -->
                                         </div>
                                         <div class="col-lg mx-3 galeria-card">
                                             <h4 class="galeria-title mb-0">Ana Maria Mielniczuk de Moura</h4>
