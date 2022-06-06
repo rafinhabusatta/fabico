@@ -30,24 +30,26 @@ for (var i = 0; i < lis.length; i++) {
 function expandCard(dataTarget) {
   let target = dataTarget
   let text = document.getElementById(`card-${target}`)
-  let title = document.querySelector('.galeria-title')
-  let year = document.querySelector('.galeria-year')
   let card = text.parentElement
+  let title = card.getElementsByTagName('h4')[0]
+  let year = card.querySelector('.galeria-year')
   let arrow = document.querySelector('.styled-down-icon')
-
-  if ((title.style.color = '#3F1055')) {
-    text.classList.add('d-block')
-    title.style.color = '#fff'
-    year.style.color = '#fff'
+  console.log(title)
+  if (!title.classList.contains('text-white')) {
+    title.classList.add('text-white')
+    year.classList.add('text-white')
     card.style.backgroundColor = '#F08232'
-    card.style.height = '100%'
-    arrow.style.transform = 'rotate(180deg)'
-  } else if ((arrow.style.transform = 'rotate(180deg)')) {
-    text.classList.remove('d-block')
-    title.style.color = '#3F1055'
-    year.style.color = '#404040'
+    card.classList.add('h-100')
+    arrow.classList.add = 'styled-up-arrow'
+    arrow.classList.remove = 'styled-down-arrow'
+    console.log('expand')
+  } else if (title.classList.contains('text-white')) {
+    title.classList.remove('text-white')
+    year.classList.remove('text-white')
     card.style.backgroundColor = '#eee'
-    card.style.height = '150px'
-    arrow.style.transform = 'rotate(0deg)'
+    card.classList.remove('h-100')
+    arrow.classList.remove = 'styled-up-arrow'
+    arrow.classList.add = 'styled-down-arrow'
+    console.log('contrai')
   }
 }
