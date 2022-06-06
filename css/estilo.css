@@ -99,9 +99,14 @@ ul {
   background-image: url("../assets/down.svg");
 }
 
+.styled-up-icon {
+  background-image: url("../assets/up.svg");
+}
+
 .styled-prev-icon,
 .styled-next-icon,
-.styled-down-icon {
+.styled-down-icon,
+.styled-up-icon {
   width: 30px;
   height: 30px;
 }
@@ -143,6 +148,11 @@ ul {
 
 .galeria-year {
   font-size: 20px;
+}
+
+.mx--15 {
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 /* BOX SHADOWS */
