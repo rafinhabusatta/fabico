@@ -1,10 +1,9 @@
 /* EQUIPE */
-.equipe h3 {
+.box-equipe h4 {
   font-size: 16px;
-  font-weight: 700;
 }
 
-.equipe p {
+.box-equipe p {
   margin: 0;
 }
 
