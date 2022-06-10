@@ -121,11 +121,6 @@ ul {
   opacity: 0.9;
 }
 
-#carousel-galeria .carousel-inner {
-  width: 800px;
-  margin: auto;
-}
-
 /* .carousel-item-height {
   height: 150px;
 } */
@@ -233,6 +228,11 @@ ul {
   .bloco-container,
   .top-header {
     padding: 48px 111px;
+  }
+
+  #carousel-galeria .carousel-inner {
+    width: 800px;
+    margin: auto;
   }
 }
 
