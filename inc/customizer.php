@@ -89,18 +89,21 @@ function starter_theme_customize_register( $wp_customize ) {
 
 	// HEADER PAGE CUSTOMIZER
 	$wp_customize->add_section('header_page', array(
-		'title' => __('Cabeçalho da Página', 'starter-theme'),
-		'description' => sprintf(__('Edite informações do cabeçalho da página, como o título e a frase de efeito.', 'starter-theme')),
+		'title' => __('A Fabico', 'starter-theme'),
+		'description' => sprintf(__('Edite informações da página A Fabico, como o título, frase de efeito, cor de fundo e textos.', 'starter-theme')),
 		// 'priority' => 131
 	));
 	$wp_customize->add_setting('header_page_title', array(
 		'default' => _x('Título da Página', 'starter-theme'),
 		'type' => 'theme_mod',
+		'sanitize_callback' => 'sanitize_text_field'
 		//'transport' => 'refresh'
 	));
 	$wp_customize->add_control('header_page_title', array(
 		'label' => __('Título', 'starter-theme'),
+		'description' => __('escreva o título', 'starter-theme'),
 		'section' => 'header_page',
+		'type' => 'text',
 		'priority' => 1
 	));
 
@@ -112,8 +115,22 @@ function starter_theme_customize_register( $wp_customize ) {
 	$wp_customize->add_control('header_page_text', array(
 		'label' => __('Frase de efeito', 'starter-theme'),
 		'section' => 'header_page',
+		'type' => 'textarea',
 		'priority' => 2
 	));
+
+	$wp_customize->add_setting('header_page_background', array(
+		'default' => _x('#001E50', 'starter-theme'),
+		'type' => 'theme_mod',
+		//'transport' => 'refresh'
+	));
+	$wp_customize->add_control('header_page_background', array(
+		'label' => __('Background Color', 'starter-theme'),
+		'section' => 'header_page',
+		'type' => 'color',
+		'priority' => 3
+	));
+
 
 	// BLOCK AREA CUSTOMIZER
 	$wp_customize->add_section('block_area', array(
