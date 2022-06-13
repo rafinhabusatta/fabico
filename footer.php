@@ -1,13 +1,6 @@
 <footer class="footer mt-5">
-	<div class="container-fluid grid-footer px-lg-5">
-		<div class="row py-3 py-lg-5 footer-1">
-			<div class="col-12 text-center">
-				<a href="https://pt-br.facebook.com/ufrgsfabico/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/facebook.svg" alt="Facebook"></a>
-				<a href="https://www.instagram.com/fabicoufrgs/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/instagram.svg" alt="Instagram"></a>
-				<a href="https://www.youtube.com/channel/UCpNpfJSzbFGrcpelT3PgjXA" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/youtube.svg" alt="YouTube"></a>
-			</div>
-		</div>
-		<div class="row pt-3 pt-lg-0 footer-2">
+	<div class="container-fluid grid-footer px-lg-5 pt-lg-5">
+		<div class="row pt-3 pt-lg-5 footer-2">
 			<div class="col-12">		
 				<a href="<?php echo site_url(); ?>"><h2 class="footer-title">Fabico</h2></a>
 				<ul>
@@ -19,7 +12,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row pt-3 pt-lg-0 footer-3">
+		<div class="row pt-3 pt-lg-5 footer-3">
 			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Mais</h2></a>
 				<ul>
@@ -29,7 +22,7 @@
 				</ul>	
 			</div>
 		</div>
-		<div class="row pt-3 pt-lg-0 footer-6">
+		<div class="row pt-3 pt-lg-5 footer-6">
 			<div class="col-12">			
 				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Contato</h2></a>
 				<ul>
@@ -38,73 +31,83 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-	<div class="container-fluid footer-logos mt-5">
-		<div class="footer-4">
-			<div class="row py-5 footer-logo-width">
-				<div class="col-4 col-lg align-self-center text-center">
-					<a href="<?php echo site_url(); ?>">
-						<img  src="<?php bloginfo("template_directory"); ?>/assets/manual_aluno.svg" alt="Manual do aluno">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/calendario.svg" alt="Calendário acadêmico">
-					</a>
-				</div>
-				<div class="col-4 col-lg align-self-center text-center">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/prod_alunos.svg" alt="Produção dos alunos">
-					</a>
-				</div>
-				<div class="col-4 col-lg align-self-center text-center  logo-sm">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/doc_unidades.svg" alt="Documentos da unidade">
-					</a>
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/comgrads.svg" alt="Comgrads">
-					</a>
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/servicos.svg" alt="Serviços">
-					</a>
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/biblioteca.svg" alt="Biblioteca da Fabico">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/ppgcom.svg" alt="Programa de Pós-Graduação em Comunicação - PPGCOM">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/intexto.svg" alt="inTexto">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/em-questao.svg" alt="Em Questão">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/concursos.svg" alt="Concursos - Processos Seletivos">
-					</a> 
-				</div>
-				<div class="col-4 col-lg align-self-center text-center logo">
-					<a href="#" target="_blank">
-						<img src="<?php bloginfo("template_directory"); ?>/assets/memoria-fabico.svg" alt="Memória Fabico">
-					</a> 
-				</div>
+		<div class="row py-3 py-lg-5 footer-1">
+			<div class="col-12">
+				<a href="https://pt-br.facebook.com/ufrgsfabico/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/facebook.svg" alt="Facebook"></a>
+				<a href="https://www.instagram.com/fabicoufrgs/" target="_blank"><img class="mr-3" src="<?php bloginfo("template_directory"); ?>/assets/instagram.svg" alt="Instagram"></a>
+				<a href="https://www.youtube.com/channel/UCpNpfJSzbFGrcpelT3PgjXA" target="_blank"><img src="<?php bloginfo("template_directory"); ?>/assets/youtube.svg" alt="YouTube"></a>
 			</div>
 		</div>
+		
+		<!-- <div class="container-fluid footer-logos mt-5"> -->
+			<div class="footer-4 mt-5 mx-3">
+				<div class="row py-5 footer-logo-width">
+					<div class="col-4 col-lg align-self-center text-center">
+						<a href="<?php echo site_url(); ?>">
+							<img  src="<?php bloginfo("template_directory"); ?>/assets/manual_aluno.svg" alt="Manual do aluno">
+						</a> 
+					</div>
+					<div class="col-4 col-lg align-self-center text-center">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/calendario.svg" alt="Calendário acadêmico">
+						</a>
+					</div>
+					<div class="col-4 col-lg align-self-center text-center">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/prod_alunos.svg" alt="Produção dos alunos">
+						</a>
+					</div>
+					<div class="col-4 col-lg align-self-center text-center  logo-sm">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/doc_unidades.svg" alt="Documentos da unidade">
+						</a>
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/comgrads.svg" alt="Comgrads">
+						</a>
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/servicos.svg" alt="Serviços">
+						</a>
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/concursos.svg" alt="Concursos - Processos Seletivos">
+						</a> 
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/biblioteca.svg" alt="Biblioteca da Fabico">
+						</a> 
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/ppgcom.svg" alt="Programa de Pós-Graduação em Comunicação - PPGCOM">
+						</a> 
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/intexto.svg" alt="inTexto">
+						</a> 
+					</div>
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/em-questao.svg" alt="Em Questão">
+						</a> 
+					</div>
+					
+					<div class="col-4 col-lg align-self-center text-center logo">
+						<a href="#" target="_blank">
+							<img src="<?php bloginfo("template_directory"); ?>/assets/memoria-fabico.svg" alt="Memória Fabico">
+						</a> 
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
 	</div>
+	
 	<div class="container-fluid">
 		<div class="row py-3 footer-5">
 			<div class="col-12 text-center font-weight-bold">
