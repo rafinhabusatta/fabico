@@ -40,8 +40,8 @@
 		</div>
 		
 		<!-- <div class="container-fluid footer-logos mt-5"> -->
-			<div class="footer-4 mt-5 mx-3">
-				<div class="row py-5 footer-logo-width">
+			<div class="footer-4 mx-3">
+				<div class="row footer-logo-width">
 					<div class="col-4 col-lg align-self-center text-center">
 						<a href="<?php echo site_url(); ?>">
 							<img  src="<?php bloginfo("template_directory"); ?>/assets/manual_aluno.svg" alt="Manual do aluno">
