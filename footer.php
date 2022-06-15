@@ -2,7 +2,7 @@
 	<div class="container-fluid grid-footer px-lg-5 pt-lg-5">
 		<div class="row pt-3 pt-lg-5 footer-2">
 			<div class="col-12">		
-				<a href="<?php echo site_url(); ?>"><h2 class="footer-title">Fabico</h2></a>
+				<a href="<?php echo site_url(); ?>/a-fabico"><h2 class="footer-title">Fabico</h2></a>
 				<ul>
 					<li><a href="<?php echo site_url(); ?>/quem-somos">Quem Somos</a></li>
 					<li><a href="<?php echo site_url(); ?>/a-fabico">A Fabico</a></li>
@@ -14,7 +14,7 @@
 		</div>
 		<div class="row pt-3 pt-lg-5 footer-3">
 			<div class="col-12">			
-				<a href="<?php echo site_url(); ?>/contato"><h2 class="footer-title">Mais</h2></a>
+				<h2 class="footer-title">Mais</h2>
 				<ul>
 					<li><a href="<?php echo site_url(); ?>/aluno">Aluno</a></li>
 					<li><a href="<?php echo site_url(); ?>/nucleos-e-laboratorios">Núcleos e Laboratórios</a></li>
