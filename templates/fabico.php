@@ -52,13 +52,17 @@
           </div>
         </div>
         <div class="row  bloco-container">
-          <div class="col-12 col-lg-10 box-sombra p-5">
+          <div class="col-12 col-lg-10 box-sombra p-5 text-center">
             <div class="row">
               <div class="col-12">
                 <h3>Composição atual do Conselho da Faculdade de Biblioteconomia e Comunicação</h3>
               </div>
             </div>
-            <div class="row">
+            <button class="btn down-button" type="button" data-toggle="collapse" data-target="#conselho-membros" aria-expanded="false" aria-controls="teste" onclick="expandCard(1)">
+              <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Expandir</span>
+            </button>
+            <div class="row collapse" id="conselho-membros">
               <?php 
                 $args = array(
                 'post_type' => 'team_conselho',
@@ -213,12 +217,67 @@
             <p class="text-justify">
               A Direção e a Gerência Administrativa têm por objetivo viabilizar e promover o ensino, a pesquisa e a extensão nas áreas das Ciências da Informação (Arquivologia, Biblioteconomia e Museologia) e Comunicação (Jornalismo, Relações Públicas e Publicidade Propaganda), contribuindo para o pleno desenvolvimento da sociedade nos planos político, social, econômico e cultural.
             </p>
-            <p class="text-justify">
-              A administração da FABICO é composta pelos seguintes professores e técnico-administrativos:
-            </p>
+
+            <div class="row  bloco-container">
+              <div class="col-12 col-lg-10 box-sombra p-5 text-center">
+                <div class="row">
+                  <div class="col-12">
+                    <h3>Composição atual da administração da FABICO (professores e técnico-administrativos)</h3>
+                  </div>
+                </div>
+                <button class="btn down-button" type="button" data-toggle="collapse" data-target="#admin-membros" aria-expanded="false" aria-controls="teste" onclick="expandCard(1)">
+                  <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Expandir</span>
+                </button>
+                <div class="row collapse" id="admin-membros">
+                  <?php 
+                    $args = array(
+                    'post_type' => 'team_admin',
+                    );
+                    $admin = new WP_Query ( $args );
+                  ?>
+                  <?php if ($admin -> have_posts()) : while ($admin -> have_posts()) : $admin -> the_post(); ?>
+                    <div class="col-12 col-md-5 col-lg-4 mb-4">
+                      <div class="b-left box-equipe">
+                        <h4 class="font-weight-bold">
+                          <?php echo get_field("cargo")?>
+                          
+                        </h4>
+                        <p>
+                          <?php echo get_field("chefe") ?>
+                        </p>
+                        <p>
+                          <a href="tel:<?php echo get_field("telefone_chefe") ?>">
+                            <?php echo get_field("telefone_chefe") ?>
+                          </a>
+                        </p>
+                        <p>
+                          <a href="mailto:<?php echo get_field("email_chefe") ?>">
+                            <?php echo get_field("email_chefe") ?>
+                          </a>
+                        </p>
+                        <p>
+                          <?php echo get_field("chefe_sub") ?>
+                        </p>
+                        <p>
+                          <a href="tel:<?php echo get_field("telefone_sub") ?>">
+                            <?php echo get_field("telefone_sub") ?>
+                          </a>
+                        </p>
+                        <p>
+                          <a href="mailto:<?php echo get_field("email_sub") ?>">
+                            <?php echo get_field("email_sub") ?>
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  <?php endwhile; endif; ?>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row equipe justify-content-around bloco-container">
+        <!-- <div class="row equipe justify-content-around bloco-container">
           <?php 
             $args = array(
             'post_type' => 'team_adm',
@@ -248,7 +307,7 @@
                 </div>
               </div>
           <?php endwhile; endif; ?>
-        </div>
+        </div> -->
       </div>
       <div id="gerencia">
         <div class="row bloco-container">
@@ -471,6 +530,22 @@
     $html .= '<div class="b-left box-equipe">';
     $html .=  '<h4 class="font-weight-bold">$nome</h4>';
     $html .= '<p>$cargo</p>';
+    $html .= '</div>';
+    $html .= '</div>';
+  }
+?>
+
+<?php
+  function create_administracao($chefe, $chefe_sub, $cargo, $email_chefe, $email_sub, $telefone_chefe, $telefone_sub){
+    $html .= '<div class="col-12 col-md-5 col-lg-4 mb-4">';
+    $html .= '<div class="b-left box-equipe">';
+    $html .=  '<h4 class="font-weight-bold">$cargo</h4>';
+    $html .= '<p>$chefe</p>';
+    $html .= '<p><a href="tel:$telefone_chefe">$telefone_chefe</a></p>';
+    $html .= '<p><a href="mailto:$email_chefe">$email_chefe</a></p>';
+    $html .= '<p>$chefe_sub</p>';
+    $html .= '<p><a href="tel:$telefone_sub">$telefone_sub</a></p>';
+    $html .= '<p><a href="mailto:$email_sub">$email_sub</a></p>';
     $html .= '</div>';
     $html .= '</div>';
   }
