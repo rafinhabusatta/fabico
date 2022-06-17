@@ -51,18 +51,18 @@
             <p class="text-justify">O Conselho da Unidade é o órgão de deliberação superior no âmbito da Faculdade de Biblioteconomia e Comunicação, tendo sua composição, competências e funcionamento definidos e regulados no Estatuto e no Regimento Geral da Universidade e no Regimento Interno, aprovado pelo CONSELHO UNIVERSITÁRIO, em sessão de 15 de janeiro de 2016, tendo em vista o constante no processo nº 23078.029632/2015-41, de acordo com o Parecer nº 392/2015 da Comissão de Legislação e Regimentos e as emendas aprovadas em plenário.</p>
           </div>
         </div>
-        <div class="row  bloco-container">
+        <div class="row bloco-container">
           <div class="col-12 col-lg-10 box-sombra p-5 text-center">
             <div class="row">
               <div class="col-12">
                 <h3>Composição atual do Conselho da Faculdade de Biblioteconomia e Comunicação</h3>
               </div>
             </div>
-            <button class="btn down-button" type="button" data-toggle="collapse" data-target="#conselho-membros" aria-expanded="false" aria-controls="teste" onclick="expandCard(1)">
+            <button class="btn down-button" type="button" data-toggle="collapse" data-target="#card-1" aria-expanded="false" aria-controls="teste" onclick="expandCard(1)">
               <span class="styled-down-icon carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Expandir</span>
             </button>
-            <div class="row collapse" id="conselho-membros">
+            <div class="row collapse" id="card-1">
               <?php 
                 $args = array(
                 'post_type' => 'team_conselho',
@@ -217,7 +217,6 @@
             <p class="text-justify">
               A Direção e a Gerência Administrativa têm por objetivo viabilizar e promover o ensino, a pesquisa e a extensão nas áreas das Ciências da Informação (Arquivologia, Biblioteconomia e Museologia) e Comunicação (Jornalismo, Relações Públicas e Publicidade Propaganda), contribuindo para o pleno desenvolvimento da sociedade nos planos político, social, econômico e cultural.
             </p>
-
             <div class="row  bloco-container">
               <div class="col-12 col-lg-10 box-sombra p-5 text-center">
                 <div class="row">
@@ -241,7 +240,6 @@
                       <div class="b-left box-equipe">
                         <h4 class="font-weight-bold">
                           <?php echo get_field("cargo")?>
-                          
                         </h4>
                         <p>
                           <?php echo get_field("chefe") ?>
@@ -309,9 +307,8 @@
           <?php endwhile; endif; ?>
         </div> -->
       </div>
-      <div id="gerencia">
-        <div class="row bloco-container">
-          <div class="col-12 col-lg-10">
+      <div class="row bloco-container" id="gerencia">
+        <div class="col-12 col-lg-10">
           <h2 class="title">Gerência Administrativa</h2>
           <p class="text-justify">
             Abrange atividades administrativas e acadêmicas ligadas aos Departamentos, às Comissões de Graduação, Extensão e Pesquisa, agrupadas em setores.
@@ -329,13 +326,57 @@
             Gerenciar os recursos de caráter institucional da Unidade, provenientes de convênios e outras fontes em conformidade com programação previamente definida;
             Representar formalmente a Unidade Acadêmica junto aos órgãos competentes em questões pertinentes à sua área, quando solicitado.
           </p>
-          <p>Contato</p>
+          <!-- <p>Contato</p>
           <ul>
             <li>Telefone: (51) 3308.5067</li>
             <li>E-mail: fabico@ufrgs.br</li>
             <li>Sala 212 - Anexo 1 - Saúde</li>
             <li>Horário: 8h às 18h</li>
-          </ul> 
+          </ul>  -->
+          <div class="row mt-5 bloco-container">
+            <div class="col-12" id="galeria">
+              <h3> </h3>
+              <div id="carousel-galeria" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                  <?php 
+                    $args = array(
+                    'post_type' => 'team_gerencia',
+                    );
+                    $gerencia_admin = new WP_Query ( $args );
+                  ?>
+                  <?php if ($gerencia_admin -> have_posts()) : while ($gerencia_admin -> have_posts()) : $gerencia_admin -> the_post(); ?>
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-lg mx-3">
+                          <div class="b-left box-equipe">
+                            <h4 class="galeria-title mb-0"><?php echo get_field("cargo")?></h4>
+                            <h3 class="font-weight-bold">
+                              <?php the_title(); ?>
+                            </h3>
+                          </div>
+                        </div>
+                        <div class="col-lg mx-3">
+                          <div class="b-left box-equipe">
+                            <h4 class="galeria-title mb-0"><?php echo get_field("cargo")?></h4>
+                            <h3 class="font-weight-bold">
+                              <?php the_title(); ?>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <?php endwhile; endif; ?>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carousel-galeria" data-slide="prev">
+                  <span class="styled-prev-icon carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carousel-galeria" data-slide="next">
+                  <span class="styled-next-icon carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -53,3 +53,28 @@ function expandCard(dataTarget) {
     console.log('contrai')
   }
 }
+
+function expandCard(dataTarget) {
+  let target = dataTarget
+  let text = document.getElementById(`card-${target}`)
+  let card = text.parentElement
+  let arrow = document.querySelector('.styled-down-icon')
+  console.log(title)
+  if (!title.classList.contains('text-white')) {
+    title.classList.add('text-white')
+    year.classList.add('text-white')
+    card.style.backgroundColor = '#F08232'
+    card.classList.add('h-100')
+    arrow.classList.add = 'styled-up-arrow'
+    arrow.classList.remove = 'styled-down-arrow'
+    console.log('expand')
+  } else if (title.classList.contains('text-white')) {
+    title.classList.remove('text-white')
+    year.classList.remove('text-white')
+    card.style.backgroundColor = '#eee'
+    card.classList.remove('h-100')
+    arrow.classList.remove = 'styled-up-arrow'
+    arrow.classList.add = 'styled-down-arrow'
+    console.log('contrai')
+  }
+}
