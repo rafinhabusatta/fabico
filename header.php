@@ -37,7 +37,7 @@
 		<?php wp_head(); ?>
 		<style>
 			.bg-header {
-				background-color: <?php echo get_theme_mod('header_page_background', '#001E50'); ?>;
+				background-color: <?php echo get_theme_mod('fabico_background', '#001E50'); ?>;
 			}
 		</style>
 	</head>
