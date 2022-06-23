@@ -11,7 +11,7 @@
       <div class="row mx-md-3">
         <div class="col-12 px-md-0 m-xl-auto">
           <p class="text-justify">
-            A Faculdade de Biblioteconomia e Comunicação oferece seis cursos de graduação: Arquivologia, Biblioteconomia e Museologia na área de Ciências da Informação; Jornalismo, Publicidade e Propaganda e Relações Públicas na área de Comunicação.
+            <?php echo get_theme_mod('', '');?>
           </p>
         </div>
       </div>
