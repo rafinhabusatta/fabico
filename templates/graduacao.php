@@ -2,10 +2,10 @@
 <?php get_header(); ?>
 <div class="container-fluid">
   <div class="row bg-header">
-    <div class="col-12 bloco-container">
+    <div class="col-12 top-header">
       <div class="row mx-md-3">
         <div class="col-12 px-md-0">
-          <h1 class="text-center mb-4">GRADUAÇÃO</h1>
+          <h1 class="text-center mb-4"><?php wp_title($sep = ''); ?></h1>
         </div>
       </div>
       <div class="row mx-md-3">

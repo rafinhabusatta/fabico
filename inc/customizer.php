@@ -142,6 +142,21 @@ function starter_theme_customize_register( $wp_customize ) {
 		'section' => 'block_area',
 		'priority' => 2
 	));
+	
+	//GRADUAÇÃO
+	$wp_customize->add_section('graduacao', array(
+		'title' => __('Graduação', 'starter-theme'),
+		'description' => sprintf(__('Edite informações da página Graudação.', 'starter-theme'))
+	));
+	$wp_customize->add_setting('graduacao_header_text', array(
+		'default' => _x('Texto aqui', 'starter_theme'),
+		'type' => 'theme_mod'
+	));
+	$wp_customize->add_control('graduacao_header_text', array(
+		'label' => __('Texto de efeito', 'starter-theme'),
+		'section' => 'graduacao',
+		'priority' => 1
+	));
 
 
 
