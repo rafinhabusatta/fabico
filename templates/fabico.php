@@ -574,6 +574,11 @@
     $html .= '</div>';
     $html .= '</div>';
   }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 11cf3ea011b1cf5354ca3c6f2fd180c3ade6f90e
 ?>
 
 <?php
@@ -590,4 +595,8 @@
     $html .= '</div>';
     $html .= '</div>';
   }
+<<<<<<< HEAD
+=======
+>>>>>>> 9af7810a6bca2e0ddc1acc6d42c6011c52563815
+>>>>>>> 11cf3ea011b1cf5354ca3c6f2fd180c3ade6f90e
 ?>
