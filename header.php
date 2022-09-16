@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 		<!-- Estilo Personalizado -->
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilo.css?v=1">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/estilo.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/contato.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/publicacoes.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/header.css">

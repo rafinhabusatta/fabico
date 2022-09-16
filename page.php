@@ -39,8 +39,6 @@ get_header();
 
 					endwhile; // End of the loop.
 					?>
-
-					XXXXXXXXXXXXXXXXXX
 				</div>
 			</div>
 		</div>
