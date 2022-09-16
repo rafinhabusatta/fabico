@@ -173,29 +173,36 @@ function body_contato($classes){
 
 /* ********** WIDGET AREA ********** */
 
+/* Register Widget Function - Register the fabico_widget Widget */
 function fabico_widget_register_widget() {
 	register_widget( 'fabico_widget' );
 }
 add_action( 'widgets_init', 'fabico_widget_register_widget' );
 
 class fabico_widget extends WP_Widget {
+	/* First Function - Constructor Method */
 	function __construct() {
 		parent::__construct(
 			'fabico_widget', // Base ID
-			__('Fabico Widget', 'text_domain'), // Name
-			array( 'description' => __( 'Primeiro widget teste', 'text_domain' ), ) // Args
+			__('Fabico Widget', 'fabico_widget_domain'), // Widget Name
+			array( 'description' => __( 'Primeiro widget teste', 'fabico_widget_domain' ), ) // Description
 		);
 	}
+	/* Second Function - Widget() - defines the look of the widget on front-end */
 	public function widget( $args, $instance ) {
+		$title = apply_filters( 'widget_title', $instance['title'] );
 		echo $args['before_widget'];
-		if ( ! empty( $instance['title'] ) ) {
-			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
+		// if title is present
+		if ( ! empty( $title ) ) {
+			echo $args['before_title'] . $title . $args['after_title'];
 		}
-		echo __( 'Boas vindas ao nosso primeiro Widget, Fabico!', 'text_domain' );
+		// output
+		echo __( 'Boas vindas ao nosso primeiro Widget, Fabico!', 'fabico_widget_domain' );
 		echo $args['after_widget'];
 	}
+	/* Third Function - form() - back-end */
 	public function form( $instance ) {
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'text_domain' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'fabico_widget_domain' );
 		?>
 		<p>
 			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
@@ -203,6 +210,7 @@ class fabico_widget extends WP_Widget {
 		</p>
 		<?php
 	}
+	/* Fourth Function - update() - refresh the widget every time settings are changed */
 	public function update( $new_instance, $old_instance ) {
 		$instance = array();
 		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
