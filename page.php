@@ -24,8 +24,9 @@ get_header();
 					<h1 class="text-center mb-4 text-uppercase"><?php single_post_title(); ?></h1>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 fabico-top-header">
+			<div class="row mx-0 mt-3">
+				<div class="col-3 d-none d-lg-block mt-5"></div>
+				<div class="col-12 col-lg-9">
 					<?php
 					while (have_posts()) :
 						the_post();
