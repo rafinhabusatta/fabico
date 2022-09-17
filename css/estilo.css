@@ -39,6 +39,8 @@ ul {
 .title {
   font-size: 40px;
   color: #001e50;
+  border-left: 5px solid #f08232;
+  padding-left: 15px;
 }
 
 /* SIDE MENU */
