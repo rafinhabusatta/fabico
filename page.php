@@ -21,7 +21,7 @@ get_header();
 		<div class="container-fluid">
 			<div class="row bg-header">
 				<div class="col-12 top-header ">
-					<span class="fabico-title text-white"><?php single_post_title(); ?></span>
+					<h1 class="text-center mb-4 text-uppercase"><?php single_post_title(); ?></h1>
 				</div>
 			</div>
 			<div class="row">
@@ -46,5 +46,5 @@ get_header();
 </div><!-- #primary -->
 
 <?php
-get_sidebar();
+//get_sidebar();
 get_footer();
