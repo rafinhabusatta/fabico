@@ -35,6 +35,11 @@
 		</title>
 
 		<?php wp_head(); ?>
+		<!-- <style>
+			.bg-header {
+				background-color: <?php echo get_theme_mod('fabico_background', '#001E50'); ?>;
+			}
+		</style> -->
 	</head>
 	<body <?php body_class(); ?>>
 		<header id="masthead" class="sticky-top">

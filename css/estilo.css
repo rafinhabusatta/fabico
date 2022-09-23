@@ -28,7 +28,7 @@ ul {
 
 .title {
   font-size: 40px;
-  color: #001E50;
+  color: #001e50;
 }
 
 /* SIDE MENU */
@@ -61,12 +61,12 @@ ul {
 }
 
 .bg-header {
-  background-color: #001E50;
+  background-color: #001e50;
 }
 
 /* HOME */
 .home-header {
-  background: #001E50 url("../assets/banner.jpg") center/cover no-repeat  fixed;
+  background: #001e50 url('../assets/banner.jpg') center/cover no-repeat fixed;
   height: 325px;
 }
 
@@ -83,24 +83,25 @@ ul {
   align-items: center;
 }
 
-.card-home a:link, .card-home a:visited {
+.card-home a:link,
+.card-home a:visited {
   color: #fff;
 }
 
 .styled-prev-icon {
-  background-image: url("../assets/prev.svg");
+  background-image: url('../assets/prev.svg');
 }
 
 .styled-next-icon {
-  background-image: url("../assets/next.svg");
+  background-image: url('../assets/next.svg');
 }
 
 .styled-down-icon {
-  background-image: url("../assets/down.svg");
+  background-image: url('../assets/down.svg');
 }
 
 .styled-up-icon {
-  background-image: url("../assets/up.svg");
+  background-image: url('../assets/up.svg');
 }
 
 .styled-prev-icon,
@@ -138,7 +139,7 @@ ul {
 
 .galeria-title {
   font-size: 32px;
-  color: #3F1055;
+  color: #3f1055;
 }
 
 .galeria-year {

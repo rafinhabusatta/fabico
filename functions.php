@@ -48,6 +48,7 @@ if ( ! function_exists( 'starter_theme_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'primary' => esc_html__( 'Menu Principal'),
+			'secondary' => esc_html__( 'Menu Lateral'),
 		) );
 
 		/*
@@ -168,4 +169,53 @@ function body_contato($classes){
 		$classes[] = 'contato-body-color';
 	}
 	return $classes;
+}
+
+/* ********** WIDGET AREA ********** */
+
+/* Register Widget Function - Register the fabico_widget Widget */
+function fabico_widget_register_widget() {
+	register_widget( 'fabico_widget' );
+}
+add_action( 'widgets_init', 'fabico_widget_register_widget' );
+
+class fabico_widget extends WP_Widget {
+	/* First Function - Constructor Method */
+	function __construct() {
+		parent::__construct(
+			'fabico_widget', // Base ID
+			__('Fabico Widget', 'fabico_widget_domain'), // Widget Name
+			array( 'description' => __( 'Primeiro widget teste', 'fabico_widget_domain' ), ) // Description
+		);
+	}
+	/* Second Function - Widget() - defines the look of the widget on front-end */
+	public function widget( $args, $instance ) {
+		$title = apply_filters( 'widget_title', $instance['title'] );
+		echo $args['before_widget'];
+		// if title is present
+		if ( ! empty( $title ) ) {
+			echo $args['before_title'] . $title . $args['after_title'];
+		}
+		// output
+		echo __( 'Boas vindas ao nosso primeiro Widget, Fabico!', 'fabico_widget_domain' );
+		echo $args['after_widget'];
+	}
+	/* Third Function - form() - back-end */
+	public function form( $instance ) {
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'fabico_widget_domain' );
+		?>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		</p>
+		<?php
+	}
+	/* Fourth Function - update() - refresh the widget every time settings are changed */
+	public function update( $new_instance, $old_instance ) {
+		$instance = array();
+		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+		return $instance;
+	}
+
+
 }
