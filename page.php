@@ -28,17 +28,30 @@ get_header();
 				<div class="col-3 d-none d-lg-block mt-5"></div>
 				<div class="col-12 col-lg-9">
 					<?php
+					if ( have_posts() ) :
+						/* Start the Loop */
 					while (have_posts()) :
 						the_post();
-
-						get_template_part('template-parts/content', 'page');
-
+						?>
+						<div class="row teste">
+							<div class="col-12 teste">
+								<?php
+									get_template_part('template-parts/content', 'page', '<div class="testeinterna">', '</div>');
+								?>
+							</div>
+						</div>
+						<?php
+						endwhile;// End of the loop.
+						else :
+							get_template_part( 'template-parts/content', 'none',array(
+								'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'starter-theme' ),
+								'after'  => '</div>',
+							)  );
+						endif;
 						// If comments are open or we have at least one comment, load up the comment template.
 						if (comments_open() || get_comments_number()) :
 							comments_template();
-						endif;
-
-					endwhile; // End of the loop.
+						endif; 
 					?>
 				</div>
 			</div>
