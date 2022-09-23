@@ -257,3 +257,5 @@ class text_block extends WP_Widget {
 		return $instance;
 	}
 }
+
+
