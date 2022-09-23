@@ -5,7 +5,7 @@
     <div class="col-12 bloco-container">
       <div class="row mx-md-3">
         <div class="col-12 px-md-0">
-          <h1 class="text-center mb-4 text-uppercase"><?php echo get_theme_mod('header_page_title', 'a fabico'); ?></h1>
+          <h1 class="text-center mb-4 text-uppercase">Graduação</h1>
         </div>
       </div>
       <div class="row mx-md-3">

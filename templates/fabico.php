@@ -5,13 +5,17 @@
     <div class="col-12 top-header">
       <div class="row mx-0 mx-md-4 px-2">
         <div class="col-12 px-md-0">
-            <h1 class="text-center mb-4 text-uppercase"><?php echo get_theme_mod('header_page_title', 'a fabico'); ?></h1>
+            <!-- <h1 class="text-center mb-4 text-uppercase"><?php echo get_theme_mod('header_page_title', 'a fabico'); ?></h1> -->
+            <h1 class="text-center mb-4 text-uppercase">A Fabico</h1>
         </div>
       </div>
       <div class="row mx-0 mx-md-4 px-2">
         <div class="col-12 px-md-0 m-xl-auto">
-          <p class="text-justify">
+          <!-- <p class="text-justify">
             <?php echo get_theme_mod('header_page_text', 'A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo Reitor Eduardo Zaccaro Faraco, em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.'); ?>
+          </p> -->
+          <p class="class-justify">
+            A Faculdade de Biblioteconomia e Comunicação foi criada pela Portaria nº 714, assinada pelo Reitor Eduardo Zaccaro Faraco, em 1º de setembro de 1970, em sequência à Reforma Universitária implantada pela Lei nº 5540 de 1968.
           </p>
         </div>
       </div>
@@ -20,7 +24,7 @@
   <div class="row mx-0 mt-3">
     <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
-        <!-- <ul class="side-menu-ul">
+        <ul class="side-menu-ul">
           <li class="menu-item">
             <a href="#historico">Histórico</a>
             <ul class="menu-subsection">
@@ -40,9 +44,9 @@
           <li class="menu-item"><a href="#ngd">NGD - Núcleo de Gestão de Desempenho</a></li>
           <li class="menu-item"><a href="#cosat">COSAT - Comissão de Saúde e Ambiente de Trabalho</a></li>
           <li class="menu-item"><a href="#biblioteca">Biblioteca Fabico</a></li>
-        </ul> -->
+        </ul>
         <?php
-					if ( function_exists( 'the_custom_logo' ) ) {
+					/*if ( function_exists( 'the_custom_logo' ) ) {
 						the_custom_logo();
 					}
 					wp_nav_menu( array(
@@ -55,7 +59,7 @@
 						'menu_class'        => 'nav navbar-nav ml-auto',
 						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
 						'walker'            => new wp_bootstrap_navwalker())
-					);
+					);*/
 				?>
       </nav>
     </div>
