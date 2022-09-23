@@ -25,13 +25,13 @@
     <div class="col-lg-3 d-none d-lg-block mt-5">
       <nav class="side-menu">
         <ul class="side-menu-ul">
-          <li class="menu-item">
+          <!-- <li class="menu-item">
             <a href="#historico">Histórico</a>
             <ul class="menu-subsection">
               <li><a href="#memorias">Memórias da Fabico</a></li>
               <li><a href="#galeria">Galeria de Ex-Diretores</a></li>
             </ul>
-          </li>
+          </li> -->
           <li class="menu-item"><a href="#conselho">Conselho da Unidade</a></li>
           <li class="menu-item"><a href="#administracao">Administração</a></li>
           <li class="menu-item"><a href="#gerencia">Gerência Administrativa</a></li>
