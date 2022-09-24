@@ -1,0 +1,1 @@
+<p class="text-justify"><?php block_field("frase") ?></p>

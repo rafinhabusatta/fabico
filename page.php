@@ -22,6 +22,15 @@ get_header();
 			<div class="row bg-header">
 				<div class="col-12 top-header ">
 					<h1 class="text-center mb-4 text-uppercase"><?php single_post_title(); ?></h1>
+					<p class="text-justify">
+					<?php 
+							// if (have_posts()) :
+							// 	the_post();
+								
+							// 	endfor;
+						 	// endif;// End of the loop. 
+						?>
+					</p>
 				</div>
 			</div>
 			<div class="row mx-0 mt-3">
@@ -38,7 +47,15 @@ get_header();
 							<div class="row teste">
 								<div class="col-12 teste">
 									<?php
-									get_template_part('template-parts/content', 'page', '<div class="testeinterna">', '</div>');
+									get_template_part('template-parts/content', 'page',array(
+										'post_type'      => 'post',
+										'cat'            => '22,47,67',
+										'orderby'        => 'name',
+										'order'          => 'ASC',
+										'hide_empty'     => 1,
+										'depth'          => 1,
+										'posts_per_page' => 1
+										));
 									?>
 								</div>
 							</div>

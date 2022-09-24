@@ -75,6 +75,8 @@ ul {
 
 .bg-header {
   background-color: #001e50;
+  height: 350px;
+  align-items: center;
 }
 
 /* HOME */
