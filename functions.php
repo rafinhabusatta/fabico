@@ -176,6 +176,7 @@ function body_contato($classes){
 /* Register Widget Function - Register the fabico_widget Widget */
 function fabico_widget_register_widget() {
 	register_widget( 'fabico_widget' );
+	register_widget( 'text_block' );
 }
 add_action( 'widgets_init', 'fabico_widget_register_widget' );
 
@@ -216,6 +217,45 @@ class fabico_widget extends WP_Widget {
 		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
 		return $instance;
 	}
-
-
 }
+
+class text_block extends WP_Widget {
+	/* First Function - Constructor Method */
+	function __construct() {
+		parent::__construct(
+			'text_block', // Base ID
+			__('Bloco de Texto', 'text_block_domain'), // Widget Name
+			array( 'description' => __( 'Primeiro widget teste', 'text_block_domain' ), ) // Description
+		);
+	}
+	/* Second Function - Widget() - defines the look of the widget on front-end */
+	public function widget( $args, $instance ) {
+		$title = apply_filters( 'widget_title', $instance['title'] );
+		echo $args['before_widget'];
+		// if title is present
+		if ( ! empty( $title ) ) {
+			echo $args['before_title'] . $title . $args['after_title'];
+		}
+		// output
+		echo __( 'Boas vindas ao nosso primeiro Widget, Fabico!', 'text_block_domain' );
+		echo $args['after_widget'];
+	}
+	/* Third Function - form() - back-end */
+	public function form( $instance ) {
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'New title', 'text_block_domain' );
+		?>
+		<p>
+			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
+		</p>
+		<?php
+	}
+	/* Fourth Function - update() - refresh the widget every time settings are changed */
+	public function update( $new_instance, $old_instance ) {
+		$instance = array();
+		$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+		return $instance;
+	}
+}
+
+

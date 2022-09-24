@@ -6,21 +6,22 @@
 
 a:link,
 a:visited {
-  color: #001E50;
+  color: #001e50;
   text-decoration: none;
 }
 
 .dropdown-menu a.dropwdown-item {
-  color: #001E50;
+  color: #001e50;
 }
-.side-menu a:link, .side-menu a:visited {
+.side-menu a:link,
+.side-menu a:visited {
   color: #424242;
 }
 
-.active>.side-menu, .title {
+/* .active>.side-menu, .title {
   border-left: 5px solid #f08232;
   padding-left: 15px;
-}
+} */
 
 .btn-fabico {
   display: flex;

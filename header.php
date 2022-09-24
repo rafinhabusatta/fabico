@@ -29,7 +29,7 @@
 		<!-- Favicons -->
 		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/fabico.png" >
 
-		<title>	
+		<title>
 		<?php //is_front_page() ? bloginfo('name') : wp_title() bloginfo('name');  ?>
 			<?php wp_title(); ?>
 		</title>
