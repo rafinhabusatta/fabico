@@ -42,8 +42,8 @@ get_header();
 						'theme_location'    => 'secondary',
 						'depth'             => 2,
 						'menu_class'        => 'side-menu-ul',
-						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-						'walker'            => new wp_bootstrap_navwalker())
+						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback')
+						//'walker'            => new wp_bootstrap_navwalker())
 					); ?>
       </nav>	
 				</div>
@@ -53,22 +53,18 @@ get_header();
 						/* Start the Loop */
 						while (have_posts()) :
 							the_post();
-					?>
-							<div class="row teste">
-								<div class="col-12 teste">
-									<?php
-									get_template_part('template-parts/content', 'page',array(
-										'post_type'      => 'post',
-										'cat'            => '22,47,67',
-										'orderby'        => 'name',
-										'order'          => 'ASC',
-										'hide_empty'     => 1,
-										'depth'          => 1,
-										'posts_per_page' => 1
-										));
-									?>
-								</div>
-							</div>
+					?>		
+					<?php
+					get_template_part('template-parts/content', 'page',array(
+						'post_type'      => 'post',
+						'cat'            => '22,47,67',
+						'orderby'        => 'name',
+						'order'          => 'ASC',
+						'hide_empty'     => 1,
+						'depth'          => 1,
+						'posts_per_page' => 1
+						));
+					?>		
 					<?php
 						endwhile; // End of the loop.
 					else :

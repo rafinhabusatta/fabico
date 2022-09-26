@@ -53,3 +53,16 @@ function expandCard(dataTarget) {
     console.log('contrai')
   }
 }
+
+function toggleAccordion(dataTarget) {
+  let target = dataTarget
+  let accordion = document.getElementById(`accordion-${target}`)
+  let btn = document.getElementById(`accordion-${target}-btn`)
+  console.log(dataTarget)
+  if (!accordion.classList.contains('show')) {
+    btn.classList.add('accordion-active')
+    console.log('contem show')
+  } else {
+    btn.classList.remove('accordion-active')
+  }
+}
