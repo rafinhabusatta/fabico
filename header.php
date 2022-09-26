@@ -41,12 +41,15 @@
 			}
 		</style> -->
 		<style>
+			button {
+				border: none;
+			}
 			.accordion {
 				//border: 1px solid rgba(0,0,0,.125);
 				width: 100%;
 				border: 1px solid rgba(0,0,0,.125);
 				background-color: #fff;
-				color: #424242;
+				color: #001E50;
 				font-weight: bold;
 				font-size: 1.2rem;
 				border-radius: 0;
@@ -54,11 +57,11 @@
 				border-top-right-radius: 15px;
 			}
 			.accordion:hover {
-				background-color: #3F1055;
+				background-color: #F08232;
 				color: #fff;
 			}
 			.accordion-active {
-				//border: 1px solid rgba(0,0,0,.125);
+				border: 1px solid rgba(0,0,0,.125);
 				width: 100%;
 				border: none;
 				background-color: #F08232;
@@ -69,9 +72,9 @@
 				border-top-left-radius: 15px;
 				border-top-right-radius: 15px;
 			}
-			.accordion-active:hover {
-				background-color: #001E50;
-			}
+			/* .accorcion-active: hover {
+				border: none;
+			} */
 		</style>
 	</head>
 	<body <?php body_class(); ?>>
