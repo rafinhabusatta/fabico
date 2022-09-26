@@ -35,7 +35,17 @@ get_header();
 			</div>
 			<div class="row mx-0 mt-3">
 				<div class="col-3 d-none d-lg-block mt-5">
-					<?php get_sidebar(); ?>
+				<nav class="side-menu">
+        <?php 
+					wp_nav_menu( array(
+						'menu'              => 'secondary',
+						'theme_location'    => 'secondary',
+						'depth'             => 2,
+						'menu_class'        => 'side-menu-ul',
+						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+						'walker'            => new wp_bootstrap_navwalker())
+					); ?>
+      </nav>	
 				</div>
 				<div class="col-12 col-lg-9">
 					<?php
