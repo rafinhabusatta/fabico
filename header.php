@@ -40,42 +40,6 @@
 				background-color: <?php echo get_theme_mod('fabico_background', '#001E50'); ?>;
 			}
 		</style> -->
-		<style>
-			button {
-				border: none;
-			}
-			.accordion {
-				//border: 1px solid rgba(0,0,0,.125);
-				width: 100%;
-				border: 1px solid rgba(0,0,0,.125);
-				background-color: #fff;
-				color: #001E50;
-				font-weight: bold;
-				font-size: 1.2rem;
-				border-radius: 0;
-				border-top-left-radius: 15px;
-				border-top-right-radius: 15px;
-			}
-			.accordion:hover {
-				background-color: #F08232;
-				color: #fff;
-			}
-			.accordion-active {
-				border: 1px solid rgba(0,0,0,.125);
-				width: 100%;
-				border: none;
-				background-color: #F08232;
-				color: white;
-				font-weight: bold;
-				font-size: 1.2rem;
-				border-radius: 0;
-				border-top-left-radius: 15px;
-				border-top-right-radius: 15px;
-			}
-			/* .accorcion-active: hover {
-				border: none;
-			} */
-		</style>
 	</head>
 	<body <?php body_class(); ?>>
 		<header id="masthead" class="sticky-top">
