@@ -6,8 +6,6 @@
   background-color: black;
 } */
 
-/******************************************************* SINGLE PAGE **************/
-/* Para paginas Graduação - css/estilo.css */
 /*
 
 html {
@@ -75,9 +73,9 @@ h3.equipe-nomes {
   font-size: 22px;
 }
 
-.carousel-equipe {
+/* .carousel-equipe {
   width: 990px;
-}
+} */
 
 /* BORDERS */
 .b-left {
@@ -316,7 +314,7 @@ h3.equipe-nomes {
     padding: 48px 111px;
   }
 
-  #carousel-galeria .carousel-inner {
+  .carousel-inner {
     width: 800px;
     margin: auto;
   }
