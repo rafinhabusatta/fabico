@@ -3,7 +3,9 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="profile" href="https://gmpg.org/xfn/11">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -12,7 +14,7 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-		<!-- Animte CSS -->
+		<!-- Animate CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 		<!-- Estilo Personalizado -->
@@ -25,6 +27,9 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/fabico.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/footer.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/graduacao.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/bg.css">
+		
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
 
 		<!-- Favicons -->
 		<link rel="icon" href="<?php bloginfo('template_directory');?>/assets/fabico.png" >

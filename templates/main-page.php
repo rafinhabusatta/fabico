@@ -1,15 +1,18 @@
 <!-- Template name: Main-Paige -->
 <?php get_header(); ?>
 <div class="container-fluid">
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-12 px-0 home-header">
-      <!-- <img src="<?php bloginfo("template_directory"); ?>/assets/banner.jpg" alt="Imagem da fachada da Fabico" width="100%">   -->
+       <img src="<?php bloginfo("template_directory"); ?>/assets/banner.jpg" alt="Imagem da fachada da Fabico" width="100%">
     </div>
-  </div>
+  </div> -->
   <div class="row mx-0">
     <div class="col-12 px-0">
-      <!-- bg-slider -->
       <div class="row bg-slider">
+        <div class="col-12"></div>
+      </div>
+      <!-- bg-slider -->
+      <div class="row carousel-content">
         <div class="col-12">
           <div id="carouselHome" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -39,21 +42,41 @@
           </div>
         </div>
       </div> <!-- /bg-slider -->
-      <!-- apresentação -->
+      <div class="row bg-blue">
+        <!-- apresentação -->
+        <div class="row bloco-container apresentacao">
+          <div class="col-12">
+            <h2 class="title-home">Desde 1970 formando alunos na UFRGS.</h2>
+            <p class="text-justify">
+              A Faculdade de Biblioteconomia e Comunicação (Fabico) foi criada em 1970. Possui, atualmente, sete cursos de graduação: Arquivologia, Biblioteconomia, Biblioteconomia EAD, Jornalismo, Museologia, Publicidade & Propaganda e Relações Públicas, administrados pelos departamentos de Ciências da Informação (DCI) e de Comunicação (DECOM).
+
+              A Unidade possui 18 núcleos e laboratórios para desenvolvimento de ensino, pesquisa e extensão, além de três Programas de Pós-Graduação: PPG em Comunicação (PPGCOM), PPG em Museologia e Patrimônio (PPGMUSPA) e PPG em Ciências da Informação (PPGCIN).
+            </p>
+            <!-- <p class="text-justify">
+              Localizada na rua Ramiro Barcelos, 2705, em Porto Alegre, a Fabico também conta com técnicos administrativos dos setores administrativo, acadêmico, de informática e da infraestrutura, além dos funcionários terceirizados dos estúdios, da segurança e da limpeza.
+            </p> -->
+          </div>
+        </div> <!-- /apresentação -->
+     </div>
+      <!-- Cursos -->
       <div class="row bloco-container">
         <div class="col-12">
-          <h2 class="title">Apresentação</h2>
-          <p class="text-justify">
-            A Faculdade de Biblioteconomia e Comunicação (Fabico) foi criada em 1970. Possui, atualmente, sete cursos de graduação: Arquivologia, Biblioteconomia, Biblioteconomia EAD, Jornalismo, Museologia, Publicidade & Propaganda e Relações Públicas, administrados pelos departamentos de Ciências da Informação (DCI) e de Comunicação (DECOM).
-          </p>
-          <p class="text-justify">
-            A Unidade possui 18 núcleos e laboratórios para desenvolvimento de ensino, pesquisa e extensão, além de três Programas de Pós-Graduação: PPG em Comunicação (PPGCOM), PPG em Museologia e Patrimônio (PPGMUSPA) e PPG em Ciências da Informação (PPGCIN).
-          </p>
-          <p class="text-justify">
-            Localizada na rua Ramiro Barcelos, 2705, em Porto Alegre, a Fabico também conta com técnicos administrativos dos setores administrativo, acadêmico, de informática e da infraestrutura, além dos funcionários terceirizados dos estúdios, da segurança e da limpeza.
-          </p>
+          <h2 class="title-home mb-5">Conheça nossos cursos</h2>
+          <div class="row px-3 justify-content-between text-center">  
+            <div class="col-12 col-md- col-lg-3 mx-3 card">
+              <a href="<?php echo site_url(); ?>/#">Arquivologia</a>
+            </div>
+            <div class="col-12 col-md- col-lg-3 mx-3 card">
+              <a href="<?php echo site_url(); ?>/#">Biblioteconomia</a>
+            </div>
+            <div class="col-12 col-md- col-lg-3 mx-3 card">
+              <a href="<?php echo site_url(); ?>/#">Jornalismo</a>
+            </div>
+            <div class="col-12 col-md- col-lg-3 mx-3 card">
+              <a href="<?php echo site_url(); ?>/#">Arquivologia</a>
+            </div>
         </div>
-      </div> <!-- /apresentação -->
+      </div> <!-- /Cursos -->
     </div>
   </div>
 </div>
