@@ -28,6 +28,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/footer.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/graduacao.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/bg.css">
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/partials/spacing.css">
 		
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"> 
 

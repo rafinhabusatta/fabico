@@ -4,6 +4,13 @@
   text-decoration: none;
 }
 
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #f08232;
+}
+
 a:link,
 a:visited {
   color: #001e50;
@@ -27,12 +34,16 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #f08232;
   background-color: #f08232;
   border-radius: 8px;
   height: 35px;
   width: 120px;
   margin-top: 16px;
+  color: #fff !important;
+}
+
+.btn-fabico:hover {
+  background-color: #cf610f;
 }
 /* 
 .navbar-light .navbar-nav .dropdown-item,

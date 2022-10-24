@@ -14,7 +14,7 @@
 		</div>
 		<div class="row pt-3 pt-lg-5 footer-3">
 			<div class="col-12">			
-				<h2 class="footer-title">Mais</h2>
+				<h2 class="footer-title text-white">Mais</h2>
 				<ul>
 					<li><a href="<?php echo site_url(); ?>/aluno">Aluno</a></li>
 					<li><a href="<?php echo site_url(); ?>/nucleos-e-laboratorios">Núcleos e Laboratórios</a></li>

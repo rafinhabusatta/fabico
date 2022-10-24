@@ -43,7 +43,7 @@ ul {
 }
 
 .title-home {
-  font-size: 65px;
+  font-size: 48px;
   /* border-left: 5px solid #f08232;
   padding-left: 15px; */
 }
@@ -137,10 +137,16 @@ h3.equipe-nomes {
   justify-content: center;
   align-items: center;
   height: 100px;
+  top: 0;
+  transition: all 0.5s;
 }
 
-div.card > a {
+div > a.card {
   color: #fff;
+}
+
+.card:hover {
+  top: -15px;
 }
 
 .card-home {
@@ -293,10 +299,10 @@ div.card > a {
 }
 
 /* CONTAINERS */
-.bloco-container-col-9 {
+.bloco-container {
   max-width: 1010px;
   padding-top: 48px;
-  padding-right: 48px;
+  padding: 48px;
 }
 
 .carousel-item-style {
@@ -333,6 +339,10 @@ div.card > a {
 
   .card-home {
     height: 180px;
+  }
+
+  .title-home {
+    font-size: 65px;
   }
 }
 
