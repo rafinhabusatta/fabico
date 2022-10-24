@@ -1,12 +1,24 @@
 <!-- Template name: Publicacoes -->
 <?php get_header(); ?>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="greenTitle text-center mb-4 mt-4 mt-md-5">Publicações</h1>
+        <div class="row bg-header">
+            <div class="col-12 top-header ">
+                <h1 class="text-center mb-4 text-uppercase">Notícias</h1>
+                <p class="text-center">
+                    Acompanhe as últimas notícias do que acontece na Fabico, Destaques acadêmicos e mais.
+                </p>
             </div>
         </div>
+        <!-- Acontece na Fabico -->
+        <!-- <div class="row bloco-container apresentacao">
+          <div class="col-12">
+            <h2 class="title-home">Acontece na Fabico</h2> 
+          </div>
+        </div> /Acontece na Fabico -->
         <div class="row publicacoes">
+        <div class="col-12">
+            <h2 class="title-home text-center mt-5">Acontece na Fabico</h2> 
+          </div>
             <div class="col-12 grid-container">
                 <?php 
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

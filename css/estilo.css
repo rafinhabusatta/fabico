@@ -14,7 +14,7 @@ html {
 
 /* BODY */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 ul {
@@ -40,6 +40,12 @@ ul {
   color: #001e50;
   border-left: 5px solid #f08232;
   padding-left: 15px;
+}
+
+.title-home {
+  font-size: 48px;
+  /* border-left: 5px solid #f08232;
+  padding-left: 15px; */
 }
 
 button {
@@ -121,6 +127,26 @@ h3.equipe-nomes {
 .home-header {
   background: #001e50 url('../assets/banner.jpg') center/cover no-repeat fixed;
   height: 325px;
+}
+
+.card {
+  margin-bottom: 48px;
+  background-color: #001e50;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  top: 0;
+  transition: all 0.5s;
+}
+
+div > a.card {
+  color: #fff;
+}
+
+.card:hover {
+  top: -15px;
 }
 
 .card-home {
@@ -273,21 +299,30 @@ h3.equipe-nomes {
 }
 
 /* CONTAINERS */
-.bloco-container-col-9 {
+.bloco-container {
   max-width: 1010px;
   padding-top: 48px;
-  padding-right: 48px;
+  padding: 48px;
 }
 
 .carousel-item-style {
-  height: 300px;
-  margin-top: 30px;
+  height: 500px;
+  padding-top: 25%;
   text-align: center;
   color: #fff;
 }
 
 .bg-slider {
-  background-color: #036b7f;
+  background: url('../assets/banner.jpg') center/cover no-repeat fixed;
+  height: 500px;
+  opacity: 0.5;
+}
+
+.carousel-content {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 15px;
 }
 
 @media (min-width: 992px) {
@@ -304,6 +339,10 @@ h3.equipe-nomes {
 
   .card-home {
     height: 180px;
+  }
+
+  .title-home {
+    font-size: 65px;
   }
 }
 
