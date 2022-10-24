@@ -10,7 +10,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package starter-theme
+ * @package fabico-ufrgs
  */
 
 get_header();
@@ -69,7 +69,7 @@ get_header();
 						endwhile; // End of the loop.
 					else :
 						get_template_part('template-parts/content', 'none', array(
-							'before' => '<div class="page-links">' . esc_html__('Pages:', 'starter-theme'),
+							'before' => '<div class="page-links">' . esc_html__('Pages:', 'fabico-ufrgs'),
 							'after'  => '</div>',
 						));
 					endif;
