@@ -1,37 +1,39 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package starter-theme
- */
+<?php get_header(); ?>
+<div class="container mt-4">
+	<div class="row">
+		<div class="col-sm-8 blog-main">
 
-get_header();
-?>
+			<?php
+			if (have_posts()) {
+				while (have_posts()) : the_post();
+			?>
+					<div class="blog-post">
+						<h1><?php the_title(); ?></h1>
+						<p class="blog-post-meta"><?php the_date(); ?> por <?php the_author(); ?></p>
+						<?php the_content(); ?>
+					</div><!-- /.blog-post -->
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+					<?php echo get_the_excerpt(); ?>
 
-		<?php
-		while ( have_posts() ) :
-			the_post();
+			<?php
+				endwhile;
+			}
+			?>
 
-			get_template_part( 'template-parts/content', get_post_type() );
 
-			the_post_navigation();
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+			<nav>
+				<ul class="pager">
+					<li><?php next_posts_link('Previous'); ?></li>
+					<li><?php previous_posts_link('Next'); ?></li>
+				</ul>
+			</nav>
+		</div><!-- /.blog-main -->
+		<div class="col-3">
+			<?php get_sidebar(); ?>
+		</div>
+	</div>
+</div>
 
-		endwhile; // End of the loop.
-		?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+<?php get_footer(); ?>

@@ -1,4 +1,4 @@
-<!-- Template name: Main-Paige -->
+<!-- Template name: Pagina Inicial Fabico -->
 <?php get_header(); ?>
 <div class="container-fluid">
   <!-- <div class="row">
@@ -12,36 +12,7 @@
         <div class="col-12"></div>
       </div>
       <!-- bg-slider -->
-      <div class="row carousel-content">
-        <div class="col-12">
-          <div id="carouselHome" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselHome" data-slide-to="1"></li>
-              <li data-target="#carouselHome" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active carousel-item-style">
-                <h2>Acontece na Fabico</h2>
-              </div>
-              <div class="carousel-item carousel-item-style">
-                <h2>Destaques Acadêmicos</h2>
-              </div>
-              <div class="carousel-item carousel-item-style">
-                <h2>Mural de Oportunidades</h2>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-target="#carouselHome" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-target="#carouselHome" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Próximo</span>
-            </button>
-          </div>
-        </div>
-      </div> <!-- /bg-slider -->
+      <?php require("utils/carousel_old.php"); ?>
       <div class="row bg-oxford text-white">
         <div class="col-12">
           <!-- apresentação -->
@@ -64,7 +35,7 @@
       <div class="row bloco-container">
         <div class="col-12">
           <h2 class="title-home mb-5">Conheça nossos cursos</h2>
-          <div class="row px-3 justify-content-between text-center">  
+          <div class="row px-3 justify-content-between text-center">
             <div class="col-12 col-md- col-lg-3">
               <a href="<?php echo site_url(); ?>/#" class="card">Arquivologia</a>
             </div>
