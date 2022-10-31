@@ -1,31 +1,37 @@
-<!-- Template name: AconteceNaFabico -->
+<!-- Template name: acontece-na-fabico -->
 <?php get_header(); ?>
   <div class="container-fluid">
     <div class="row bg-header">
       <div class="col-12 top-header ">
         <h1 class="text-center mb-4 text-uppercase">Acontece na Fabico</h1>
-        <!-- <p class="text-center">
-          Acompanhe as últimas notícias do que acontece na Fabico, Destaques acadêmicos e mais.
-        </p> -->
       </div>
     </div>
     <div class="row publicacoes">
       <div class="col-12 grid-container">
         <?php 
-            $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-            $aconteceFabico = new WP_Query(array(
-                'post_type'=>'acontece-na-fabico', // your post type name
-                'posts_per_page' => 12, // post per page
-                'paged' => $paged,
-            ));
+          $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+          $aconteceFabico = new WP_Query(array(
+            'post_type'=>'acontece-na-fabico', // your post type name
+            'posts_per_page' => 12, // post per page
+            'paged' => $paged,
+          ));
         ?>
         <?php if ($aconteceFabico -> have_posts()) : while ($aconteceFabico -> have_posts()) : $aconteceFabico -> the_post(); ?>
-            
-                <a href="<?php the_permalink(); ?>">
-                    <div class="post bg-oxford">
-                        <h2 class="text-center p-4"><?php the_title() ?></h2>
-                    </div>
-                </a>
+
+          <a href="<?php the_permalink(); ?>">
+            <div class="post-card bg-oxford">
+              <!-- <img src="<?php //bloginfo("template_directory"); ?>/img/comgrads.png" alt=""> -->
+              <h2 class="text-center p-4"><?php the_title() ?></h2>
+              <p class="card-data mt-3">
+                  <?php 
+                    echo get_the_date( 'd/m/Y',$post->ID );
+                  ?>
+                </p>
+                <span class="card-content">
+                  <?php echo get_the_excerpt($post->ID);?> 
+                </span>
+            </div>
+          </a>
         <?php endwhile; endif; ?>
       </div>
     </div>

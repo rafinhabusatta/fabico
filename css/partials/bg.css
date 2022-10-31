@@ -21,3 +21,7 @@
 .start-3 {
   grid-column-start: 3;
 }
+
+.d-grid {
+  display: grid;
+}
