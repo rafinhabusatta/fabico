@@ -1,10 +1,11 @@
+<!-- Template name: archive -->
 <?php
 /**
  * The template for displaying archive pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package starter-theme
+ * @package fabico-ufrgs
  */
 
 get_header();

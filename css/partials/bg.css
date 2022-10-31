@@ -13,3 +13,15 @@
 .bg-orange {
   background-color: #ec9934;
 }
+
+.text-oxford {
+  color: #001e50;
+}
+
+.start-3 {
+  grid-column-start: 3;
+}
+
+.d-grid {
+  display: grid;
+}

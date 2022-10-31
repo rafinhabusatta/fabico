@@ -65,25 +65,25 @@
         <div class="col-12">
           <h2 class="title-home mb-5">Conheça nossos cursos</h2>
           <div class="row px-3 justify-content-between text-center">  
-            <div class="col-12 col-md- col-lg-3">
+            <div class="col-12 col-md- col-lg-4">
               <a href="<?php echo site_url(); ?>/#" class="card">Arquivologia</a>
             </div>
-            <div class="col-12 col-md- col-lg-3">
-              <a href="<?php echo site_url(); ?>/#" class="card">Biblioteconomia</a>
+            <div class="col-12 col-md- col-lg-4">
+              <a href="<?php echo site_url(); ?>/#" class="card">Biblioteconomia & Biblioteconomia EAD</a>
             </div>
-            <div class="col-12 col-md- col-lg-3">
-              <a href="<?php echo site_url(); ?>/#" class="card">Biblioteconomia EAD</a>
-            </div>
-            <div class="col-12 col-md- col-lg-3">
+            <!-- <div class="col-12 col-md- col-lg-4">
+              <a href="<?php //echo site_url(); ?>/#" class="card">Biblioteconomia EAD</a>
+            </div> -->
+            <div class="col-12 col-md- col-lg-4">
               <a href="<?php echo site_url(); ?>/#" class="card">Jornalismo</a>
             </div>
-            <div class="col-12 col-md- col-lg-3">
+            <div class="col-12 col-md- col-lg-4">
               <a href="<?php echo site_url(); ?>/#" class="card">Museologia</a>
             </div>
-            <div class="col-12 col-md- col-lg-3">
+            <div class="col-12 col-md- col-lg-4">
               <a href="<?php echo site_url(); ?>/#" class="card">Publicidade & Propaganda</a>
             </div>
-            <div class="col-12 col-md- col-lg-3">
+            <div class="col-12 col-md- col-lg-4">
               <a href="<?php echo site_url(); ?>/#" class="card">Relações Públicas</a>
             </div>
           </div>
